@@ -1,0 +1,63 @@
+.miscrit-main {
+    position: absolute;
+    width: 454px;
+    height: 384px;
+    top: 27px;
+    left: 248px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__image-container {
+    width: fit-content;
+    height: fit-content;
+    max-height: 250px;
+}
+
+.main__image-container > img {
+    max-height: 250px;
+    width: auto;
+    animation-duration: 3s;
+    animation-name: fullMiscrit;
+    animation-iteration-count: infinite;
+}
+
+.platinum-check {
+    position: absolute;
+    bottom: 18px;
+    left: 2px;
+    font-size: 1rem;
+}
+
+.bonus-check {
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    font-size: 1rem;
+}
+
+.help-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    right: 3px;
+    background: #6B89A1;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+@keyframes fullMiscrit {
+    0% {
+        transform: scaleX(0.95) scaleY(1.05);
+    }
+    50% {
+        transform: scaleX(1.05) scaleY(0.95);
+    }
+    100% {
+        transform: scaleX(0.95) scaleY(1.05);
+    }
+}

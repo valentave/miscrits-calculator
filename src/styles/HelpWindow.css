@@ -1,0 +1,68 @@
+.window-back {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-window {
+    background: #42556A;
+    color: white;
+    height: fit-content;
+    width: 723px;
+    max-height: 611px;
+    overflow: auto;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.help-window ul {
+    padding: 0 20px;
+}
+
+.help-window > div > ul > li {
+    padding-bottom: 10px;
+}
+
+.close-help-button {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: red;
+    color: white;
+}
+
+.help-tabs-container {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 40px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.help-tabs-container > button {
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    transition: 0.2s;
+}
+
+.help-tabs-container > button:hover {
+    background: white;
+    color: #42556A;
+}
+
+.changelog-container > div > hr {
+    margin-bottom: 10px;
+}

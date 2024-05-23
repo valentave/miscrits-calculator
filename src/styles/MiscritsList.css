@@ -1,0 +1,110 @@
+.miscrits-listaaaa {
+    background: green;
+    position: absolute;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    width: 228px;
+    height: 416px;
+    padding: 7px 7px 7px 18px;
+}
+
+.miscrits-list {
+    position: absolute;
+    top: 178px;
+    --scrollbar-color-thumb: #42556A;
+    --scrollbar-color-track: #B6C8E1;
+    scrollbar-color: #42556A #B6C8E1;
+}
+
+.miscrits-list > div {
+    width: 100%;
+    padding: 7px 7px 7px 18px;
+}
+
+.miscrits-list__miscrit {
+    background: #9AB0C8;
+    width: 100%;
+    height: 48px;
+    margin: 1px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
+    padding-left: 22px;
+    border: none;
+    border-radius: 3px;
+    border-top: 2px solid #6B89A1;
+    border-bottom: 2px solid #E7ECF4;
+    transition: 0.2s;
+}
+
+.miscrits-list__miscrit:hover {
+    background: #ccdbf3;
+}
+
+.miscrits-list__type-container {
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    left: -14px;
+    background: none;
+}
+
+.miscrits-list__type-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.miscrits-list__picture-container {
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: 2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture-container__rarity {
+    width: 30px;
+    height: 30px;
+    top: -18px;
+    left: -18px;
+    position: absolute;
+    transform: rotate(45deg);
+    border: 2px solid black;
+}
+
+.rarity-common {
+    background: gray;
+}
+
+.rarity-rare {
+    background: blue;
+}
+
+.rarity-epic {
+    background: lime;
+}
+
+.rarity-exotic {
+    background: blueviolet;
+}
+
+.rarity-legendary {
+    background: orange;
+}
+
+.miscrits-list__picture-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.miscrits-list__name-container {
+    flex-grow: 1;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bolder;
+    color: #395362;
+}

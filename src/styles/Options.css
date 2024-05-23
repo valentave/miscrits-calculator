@@ -1,0 +1,67 @@
+.options-container {
+    width: 344px;
+    height: 139px;
+    position: absolute;
+    bottom: 34px;
+    right: 120px;
+}
+
+.options-container > h2 {
+    position: absolute;
+    top: -22px;
+    left: 19px;
+    font-size: 1.1rem;
+    color: #003D48;
+    font-weight: bolder;
+}
+
+.btn-options-1,
+.btn-options-2,
+.btn-options-3,
+.btn-options-4 {
+    position: absolute;
+    background: #FFDB40;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+.btn-options-1 {
+    width: 170px;
+    height: 60px;
+    border-radius: 35px 5px 5px 35px;
+    top: 8px;
+    left: 6px;
+}
+
+.btn-options-2 {
+    width: 155px;
+    height: 60px;
+    border-radius: 5px;
+    top: 8px;
+    left: 183px;
+}
+
+.btn-options-3 {
+    width: 170px;
+    height: 60px;
+    border-radius: 35px 5px 5px 35px;
+    top: 73px;
+    left: 6px;
+}
+
+
+.btn-options-4 {
+    width: 155px;
+    height: 60px;
+    border-radius: 5px;
+    top: 73px;
+    left: 183px;
+}
+
+.btn-options-1:hover,
+.btn-options-2:hover,
+.btn-options-3:hover,
+.btn-options-4:hover {
+    background: #ffeb93;
+    transform: scale(1.025);
+}

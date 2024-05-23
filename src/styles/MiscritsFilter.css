@@ -1,0 +1,67 @@
+.filters {
+    top: 31px;
+    width: 228px;
+    height: 136px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0 9px;
+    color: #003D48;
+}
+
+.filters__types-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.filters__type {
+    width: 25px;
+    height: 25px;
+}
+
+.filters__type > button {
+    border: none;
+    background: none;
+    transition: 0.2s;
+}
+
+.filters__type > button:hover {
+    transform: scale(1.1);
+}
+
+.filters__type > button > img {
+    width: 100%;
+    height: 100%;
+}
+
+.filters__rarity-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.filters__rarity {
+    width: 68px;
+    height: 17px;
+}
+
+.filters__rarity > button {
+    background: #9AB0C8;
+    border: none;
+    border-top: 1px solid #6B89A1;
+    border-bottom: 1px solid #E7ECF4;
+    border-radius: 3px;
+    color: #395362;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+.filters__rarity > button:hover {
+    background: #ccdbf3;
+}

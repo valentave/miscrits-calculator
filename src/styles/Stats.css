@@ -1,0 +1,66 @@
+.stats-container {
+    width: 85px;
+    height: 163px;
+    position: absolute;
+    right: 31px;
+    bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3px 10px;
+}
+
+.stat-buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 24px;
+    gap: 5px;
+}
+
+.stat-buttons-container > button {
+    background: none;
+    border: none;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.stat {
+    font-weight: 900;
+    filter: drop-shadow(0px 0px 2px white);
+}
+
+.stat-white {
+    color: white;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.stat-green {
+    color: lime;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.stat-red {
+    color: red;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.bonus-popup {
+    position: absolute;
+    background: rgba(50, 50, 50, 0.75);
+    color: white;
+    top: -29px;
+    left: 0;
+    width: 100%;
+    height: 2rem;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.stat-buttons-container > button:hover ~ div {
+    display: flex;
+}
