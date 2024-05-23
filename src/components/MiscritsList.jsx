@@ -20,7 +20,7 @@ export default function MiscritsList({LIST, selected, setSelected}) {
             </div>
             <div className="miscrits-list__picture-container">
               <div className={"picture-container__rarity rarity-" + miscrit.rarity}></div>
-              <img src={"./assets/profile-pics/" + miscrit.id + ".4.png"} alt="" />
+              <img src={"./assets/profile-pics/" + miscrit.id + ".png"} alt="" />
             </div>
             <div className="miscrits-list__name-container">
               <p>{miscrit.name}</p>
