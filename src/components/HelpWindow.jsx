@@ -48,6 +48,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.0.2</h2>
+                        <hr />
+                        <ul>
+                            <li>Fixed bug: filter didn&apos;t match dual miscrits</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.0.1</h2>
                         <hr />
                         <ul>

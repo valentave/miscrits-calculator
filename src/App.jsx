@@ -52,7 +52,7 @@ function App() {
       return false
     }).filter(n => {
       if (filterType == "none") return n
-      if (filterType == n.type) return n
+      if (n.type.includes(filterType)) return n
       return false
     }))
   }, [filterType, filterRarity])

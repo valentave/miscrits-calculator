@@ -66,3 +66,7 @@
 .changelog-container > div > hr {
     margin-bottom: 10px;
 }
+
+.changelog-version {
+    margin-bottom: 10px;
+}
