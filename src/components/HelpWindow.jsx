@@ -48,10 +48,19 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.0.3</h2>
+                        <hr />
+                        <ul>
+                            <li>Added all 217 available miscrits (most of the images are missing)</li>
+                            <li>Added a small padding to the left of the list</li>
+                            <li>Fixed bug: as you go down the list, fewer elements are rendered</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.0.2</h2>
                         <hr />
                         <ul>
-                            <li>Add first 20 miscrits</li>
+                            <li>Added first 20 miscrits</li>
                             <li>Fixed bug: filter didn&apos;t match dual miscrits</li>
                         </ul>
                     </div>
