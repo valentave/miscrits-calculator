@@ -48,6 +48,16 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.0.5</h2>
+                        <hr />
+                        <ul>
+                            <li>Fixed Dorux type</li>
+                            <li>Fixed Dark Aukamotive artwork</li>
+                            <li>Improved Dorux thumbnail</li>
+                            <li>Added Foil Vhisp and Foil Vexie</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.0.4</h2>
                         <hr />
                         <ul>
