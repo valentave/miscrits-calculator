@@ -924,7 +924,7 @@
   },
   {
     "id": 72,
-    "name": "Bubbleglup",
+    "name": "Bubblegup",
     "type": "Water",
     "evoName": "Geyserback",
     "rarity": "",
@@ -1794,7 +1794,7 @@
     "ed": 1
   },
   {
-    "id": 138,
+    "id": 139,
     "name": "Thundercracker",
     "type": "Lightning",
     "evoName": "Clobberilla",
@@ -1807,7 +1807,7 @@
     "ed": 1
   },
   {
-    "id": 139,
+    "id": 140,
     "name": "Mun Kee",
     "type": "Wind",
     "evoName": "Hanuphoon",
@@ -1820,7 +1820,7 @@
     "ed": 4
   },
   {
-    "id": 140,
+    "id": 141,
     "name": "Microblast",
     "type": "Lightning",
     "evoName": "Zapire",
@@ -1833,7 +1833,7 @@
     "ed": 4
   },
   {
-    "id": 141,
+    "id": 142,
     "name": "Sledgehog",
     "type": "Earth",
     "evoName": "Stalagfright",
@@ -1846,8 +1846,8 @@
     "ed": 2
   },
   {
-    "id": 142,
-    "name": "Saphron",
+    "id": 143,
+    "name": "Sapphron",
     "type": "Earth",
     "evoName": "Scorpionyx",
     "rarity": "rare",
@@ -1859,7 +1859,7 @@
     "ed": 2
   },
   {
-    "id": 143,
+    "id": 144,
     "name": "Cubsprout",
     "type": "Nature",
     "evoName": "Bloomane",
@@ -1872,7 +1872,7 @@
     "ed": 1
   },
   {
-    "id": 144,
+    "id": 145,
     "name": "Sparkspeck",
     "type": "Lightning",
     "evoName": "Glitterglint",
@@ -1885,7 +1885,7 @@
     "ed": 4
   },
   {
-    "id": 145,
+    "id": 146,
     "name": "Grubbean",
     "type": "Nature",
     "evoName": "Thornaxis",
@@ -1898,7 +1898,7 @@
     "ed": 2
   },
   {
-    "id": 146,
+    "id": 147,
     "name": "Echino",
     "type": "Nature",
     "evoName": "Warro",
@@ -1911,7 +1911,7 @@
     "ed": 1
   },
   {
-    "id": 147,
+    "id": 148,
     "name": "Wavesling",
     "type": "Water",
     "evoName": "Nessilisk",
@@ -1924,7 +1924,7 @@
     "ed": 3
   },
   {
-    "id": 148,
+    "id": 149,
     "name": "Sparkitten",
     "type": "Fire",
     "evoName": "Cheetorch",
@@ -1937,7 +1937,7 @@
     "ed": 2
   },
   {
-    "id": 149,
+    "id": 150,
     "name": "Arigato",
     "type": "Lightning",
     "evoName": "Dynamellow",
@@ -1950,7 +1950,7 @@
     "ed": 2
   },
   {
-    "id": 150,
+    "id": 151,
     "name": "Jack",
     "type": "Wind",
     "evoName": "Tuzee",
@@ -1963,7 +1963,7 @@
     "ed": 2
   },
   {
-    "id": 151,
+    "id": 152,
     "name": "Quebble",
     "type": "Earth",
     "evoName": "Quarriock",
@@ -1976,7 +1976,7 @@
     "ed": 1
   },
   {
-    "id": 152,
+    "id": 153,
     "name": "Digsy",
     "type": "Earth",
     "evoName": "Excavior",
@@ -1989,7 +1989,7 @@
     "ed": 3
   },
   {
-    "id": 153,
+    "id": 154,
     "name": "Hippoke",
     "type": "Earth",
     "evoName": "Triceratron",
@@ -2002,7 +2002,7 @@
     "ed": 2
   },
   {
-    "id": 154,
+    "id": 155,
     "name": "Sparkupine",
     "type": "Fire",
     "evoName": "Wiquill",
@@ -2015,7 +2015,7 @@
     "ed": 3
   },
   {
-    "id": 155,
+    "id": 156,
     "name": "Leggy",
     "type": "Wind",
     "evoName": "Ostral",
@@ -2028,7 +2028,7 @@
     "ed": 2
   },
   {
-    "id": 156,
+    "id": 157,
     "name": "Orcatide",
     "type": "Water",
     "evoName": "Hydroslam",
@@ -2041,7 +2041,7 @@
     "ed": 1
   },
   {
-    "id": 157,
+    "id": 158,
     "name": "Flutterpat",
     "type": "Wind",
     "evoName": "Gazaereal",
@@ -2054,7 +2054,7 @@
     "ed": 1
   },
   {
-    "id": 158,
+    "id": 159,
     "name": "Snorkels",
     "type": "Water",
     "evoName": "Leviafin",
@@ -2067,7 +2067,7 @@
     "ed": 2
   },
   {
-    "id": 159,
+    "id": 160,
     "name": "Kelpa",
     "type": "Nature",
     "evoName": "Derelicro",
@@ -2080,7 +2080,7 @@
     "ed": 3
   },
   {
-    "id": 160,
+    "id": 161,
     "name": "Ignios",
     "type": "Fire",
     "evoName": "Preliator",
@@ -2093,7 +2093,7 @@
     "ed": 2
   },
   {
-    "id": 161,
+    "id": 162,
     "name": "Beelzebug",
     "type": "Lightning",
     "evoName": "Zzzap",
@@ -2106,8 +2106,8 @@
     "ed": 2
   },
   {
-    "id": 162,
-    "name": "Winneabeargo",
+    "id": 163,
+    "name": "Winnebeargo",
     "type": "Wind",
     "evoName": "Minninnewah",
     "rarity": "epic",
@@ -2119,7 +2119,7 @@
     "ed": 1
   },
   {
-    "id": 163,
+    "id": 164,
     "name": "Fennie",
     "type": "Earth",
     "evoName": "Dustelle",
@@ -2132,7 +2132,7 @@
     "ed": 2
   },
   {
-    "id": 164,
+    "id": 165,
     "name": "Hydroseal",
     "type": "Water",
     "evoName": "Squalrus",
@@ -2145,7 +2145,7 @@
     "ed": 1
   },
   {
-    "id": 165,
+    "id": 166,
     "name": "Patchkin",
     "type": "Nature",
     "evoName": "Reapin Gourd",
@@ -2158,7 +2158,7 @@
     "ed": 4
   },
   {
-    "id": 166,
+    "id": 167,
     "name": "Turkniss",
     "type": "Fire",
     "evoName": "Gobblix",
@@ -2171,7 +2171,7 @@
     "ed": 3
   },
   {
-    "id": 167,
+    "id": 168,
     "name": "Flurrious",
     "type": "Water",
     "evoName": "Clawsickle",
@@ -2184,7 +2184,7 @@
     "ed": 5
   },
   {
-    "id": 168,
+    "id": 169,
     "name": "Fangly",
     "type": "Wind",
     "evoName": "Tuskalate",
@@ -2197,7 +2197,7 @@
     "ed": 2
   },
   {
-    "id": 169,
+    "id": 170,
     "name": "Dark Kiloray",
     "type": "Lightning",
     "evoName": "Dark Edison Ray",
@@ -2210,7 +2210,7 @@
     "ed": 1
   },
   {
-    "id": 170,
+    "id": 171,
     "name": "Dark Croaky",
     "type": "Earth",
     "evoName": "Dark Geotoad",
@@ -2223,7 +2223,7 @@
     "ed": 4
   },
   {
-    "id": 171,
+    "id": 172,
     "name": "Valentino",
     "type": "Lightning",
     "evoName": "Rebound",
@@ -2236,7 +2236,7 @@
     "ed": 4
   },
   {
-    "id": 172,
+    "id": 173,
     "name": "Dark Cubsprout",
     "type": "Nature",
     "evoName": "Dark Bloomane",
@@ -2249,7 +2249,7 @@
     "ed": 2
   },
   {
-    "id": 173,
+    "id": 174,
     "name": "Dark Sparkitten",
     "type": "Fire",
     "evoName": "Dark Cheetorch",
@@ -2262,7 +2262,7 @@
     "ed": 1
   },
   {
-    "id": 174,
+    "id": 175,
     "name": "Dark Snortus",
     "type": "Water",
     "evoName": "Dark Coraswine",
@@ -2275,7 +2275,7 @@
     "ed": 2
   },
   {
-    "id": 175,
+    "id": 176,
     "name": "Snortus",
     "type": "Water",
     "evoName": "Coraswine",
@@ -2288,7 +2288,7 @@
     "ed": 2
   },
   {
-    "id": 176,
+    "id": 177,
     "name": "Boltzee",
     "type": "Lightning",
     "evoName": "Violimp",
@@ -2301,7 +2301,7 @@
     "ed": 3
   },
   {
-    "id": 177,
+    "id": 178,
     "name": "Dark Grubbean",
     "type": "Nature",
     "evoName": "Dark Thornaxis",
@@ -2314,7 +2314,7 @@
     "ed": 3
   },
   {
-    "id": 178,
+    "id": 179,
     "name": "Dark Owlie",
     "type": "Wind",
     "evoName": "Dark Hootray",
@@ -2327,7 +2327,7 @@
     "ed": 3
   },
   {
-    "id": 179,
+    "id": 180,
     "name": "Dark Echino",
     "type": "Nature",
     "evoName": "Dark Warro",
@@ -2340,7 +2340,7 @@
     "ed": 5
   },
   {
-    "id": 180,
+    "id": 181,
     "name": "Patrik",
     "type": "Earth",
     "evoName": "Basiluck",
@@ -2353,7 +2353,7 @@
     "ed": 2
   },
   {
-    "id": 181,
+    "id": 182,
     "name": "Dark Arigato",
     "type": "Lightning",
     "evoName": "Dark Dynamellow",
@@ -2366,7 +2366,7 @@
     "ed": 1
   },
   {
-    "id": 182,
+    "id": 183,
     "name": "Dark Hydroseal",
     "type": "Water",
     "evoName": "Dark Squalrus",
@@ -2379,7 +2379,7 @@
     "ed": 3
   },
   {
-    "id": 183,
+    "id": 184,
     "name": "Peepsie",
     "type": "Wind",
     "evoName": "Cheepers",
@@ -2392,7 +2392,7 @@
     "ed": 3
   },
   {
-    "id": 184,
+    "id": 185,
     "name": "Dark Eggy",
     "type": "Earth",
     "evoName": "Dark Rocklodon",
@@ -2405,7 +2405,7 @@
     "ed": 2
   },
   {
-    "id": 185,
+    "id": 186,
     "name": "Dark Equestrion",
     "type": "Wind",
     "evoName": "Dark Saggitarion",
@@ -2418,7 +2418,7 @@
     "ed": 3
   },
   {
-    "id": 186,
+    "id": 187,
     "name": "Quirk",
     "type": "Nature",
     "evoName": "Subterhuge",
@@ -2431,7 +2431,7 @@
     "ed": 3
   },
   {
-    "id": 187,
+    "id": 188,
     "name": "Dark Flameling",
     "type": "Fire",
     "evoName": "Dark Infernus",
@@ -2444,7 +2444,7 @@
     "ed": 4
   },
   {
-    "id": 188,
+    "id": 189,
     "name": "Dark Elefauna",
     "type": "Nature",
     "evoName": "Dark Grastodon",
@@ -2457,8 +2457,8 @@
     "ed": 1
   },
   {
-    "id": 189,
-    "name": "Dark Sparslug",
+    "id": 190,
+    "name": "Dark Sparkslug",
     "type": "Lightning",
     "evoName": "Dark Buzzcargo",
     "rarity": "rare",
@@ -2470,7 +2470,7 @@
     "ed": 1
   },
   {
-    "id": 190,
+    "id": 191,
     "name": "Mama",
     "type": "Nature",
     "evoName": "Genesis",
@@ -2483,7 +2483,7 @@
     "ed": 3
   },
   {
-    "id": 191,
+    "id": 192,
     "name": "Dark Nessy",
     "type": "Water",
     "evoName": "Dark Aquine",
@@ -2496,7 +2496,7 @@
     "ed": 2
   },
   {
-    "id": 192,
+    "id": 193,
     "name": "Dark Hotfoot",
     "type": "Fire",
     "evoName": "Dark Kang Fu",
@@ -2509,7 +2509,7 @@
     "ed": 2
   },
   {
-    "id": 193,
+    "id": 194,
     "name": "Dark Craggy",
     "type": "Earth",
     "evoName": "Dark Mineram",
@@ -2522,7 +2522,7 @@
     "ed": 1
   },
   {
-    "id": 194,
+    "id": 195,
     "name": "Dark Breezycheeks",
     "type": "Wind",
     "evoName": "Dark Glidengale",
@@ -2535,7 +2535,7 @@
     "ed": 2
   },
   {
-    "id": 195,
+    "id": 196,
     "name": "Papa",
     "type": "Lightning",
     "evoName": "Zeusicus",
@@ -2548,7 +2548,7 @@
     "ed": 3
   },
   {
-    "id": 196,
+    "id": 197,
     "name": "Amphibunny",
     "type": "Nature",
     "evoName": "Foliare",
@@ -2561,7 +2561,7 @@
     "ed": 2
   },
   {
-    "id": 197,
+    "id": 198,
     "name": "Foil Waddles",
     "type": "Water",
     "evoName": "Foil Mallardon",
@@ -2574,7 +2574,7 @@
     "ed": 3
   },
   {
-    "id": 197,
+    "id": 199,
     "name": "Foil Fossillia",
     "type": "Earth",
     "evoName": "Foil Primordius",
@@ -2587,7 +2587,7 @@
     "ed": 2
   },
   {
-    "id": 198,
+    "id": 200,
     "name": "Foil Thundercracker",
     "type": "Lightning",
     "evoName": "Foil Clobberilla",
@@ -2600,7 +2600,7 @@
     "ed": 3
   },
   {
-    "id": 199,
+    "id": 201,
     "name": "Claviger",
     "type": "Wind",
     "evoName": "Sentinel",
@@ -2613,7 +2613,7 @@
     "ed": 3
   },
   {
-    "id": 200,
+    "id": 202,
     "name": "Foil Kiloray",
     "type": "Lightning",
     "evoName": "Foil Edison Ray",
@@ -2626,7 +2626,7 @@
     "ed": 2
   },
   {
-    "id": 201,
+    "id": 203,
     "name": "Foil Flintly",
     "type": "Fire",
     "evoName": "Foil Napalm",
@@ -2639,7 +2639,7 @@
     "ed": 3
   },
   {
-    "id": 202,
+    "id": 204,
     "name": "Fiender",
     "type": "Wind",
     "evoName": "Airyn",
@@ -2652,7 +2652,7 @@
     "ed": 1
   },
   {
-    "id": 203,
+    "id": 205,
     "name": "Auger",
     "type": "Earth",
     "evoName": "Rivett",
@@ -2665,7 +2665,7 @@
     "ed": 1
   },
   {
-    "id": 204,
+    "id": 206,
     "name": "Cadbunny",
     "type": "Water-Earth",
     "evoName": "Rolox",
@@ -2678,7 +2678,7 @@
     "ed": 4
   },
   {
-    "id": 205,
+    "id": 207,
     "name": "Peekly",
     "type": "Wind",
     "evoName": "Shamar",
@@ -2691,7 +2691,7 @@
     "ed": 2
   },
   {
-    "id": 206,
+    "id": 208,
     "name": "Alpha",
     "type": "Nature",
     "evoName": "Sire",
@@ -2704,7 +2704,7 @@
     "ed": 3
   },
   {
-    "id": 207,
+    "id": 209,
     "name": "Dorux",
     "type": "Fire-Wind",
     "evoName": "Doruden",
@@ -2717,7 +2717,7 @@
     "ed": 2
   },
   {
-    "id": 208,
+    "id": 210,
     "name": "Blighted Cubsprout",
     "type": "Nature",
     "evoName": "Blighted Bloomane",
@@ -2730,7 +2730,7 @@
     "ed": 2
   },
   {
-    "id": 209,
+    "id": 211,
     "name": "Blighted Flue",
     "type": "Fire",
     "evoName": "Blighted Afterburn",
@@ -2743,7 +2743,7 @@
     "ed": 4
   },
   {
-    "id": 210,
+    "id": 212,
     "name": "Blighted Fiender",
     "type": "Wind",
     "evoName": "Blighted Airyn",
@@ -2756,7 +2756,7 @@
     "ed": 1
   },
   {
-    "id": 211,
+    "id": 213,
     "name": "Blighted Kiloray",
     "type": "Lightning",
     "evoName": "Blighted Edison Ray",
@@ -2769,7 +2769,7 @@
     "ed": 2
   },
   {
-    "id": 211,
+    "id": 214,
     "name": "Dark Shellbee",
     "type": "Water",
     "evoName": "Dark Kalamos",
@@ -2782,7 +2782,7 @@
     "ed": 3
   },
   {
-    "id": 212,
+    "id": 215,
     "name": "Defilio",
     "type": "Nature-Earth",
     "evoName": "Spoiler",
@@ -2795,7 +2795,7 @@
     "ed": 5
   },
   {
-    "id": 213,
+    "id": 216,
     "name": "Liothning",
     "type": "Lightning",
     "evoName": "Gorgothunder",
@@ -2808,7 +2808,7 @@
     "ed": 1
   },
   {
-    "id": 214,
+    "id": 217,
     "name": "Dark Lumera",
     "type": "Fire",
     "evoName": "Dark Anublaze",
@@ -2821,7 +2821,7 @@
     "ed": 2
   },
   {
-    "id": 215,
+    "id": 218,
     "name": "Dark Steamguin",
     "type": "Fire",
     "evoName": "Dark Aukamotive",
@@ -2834,7 +2834,7 @@
     "ed": 2
   },
   {
-    "id": 216,
+    "id": 219,
     "name": "Dark Poltergust",
     "type": "Wind",
     "evoName": "Dark Zephyrgeist",
@@ -2847,7 +2847,7 @@
     "ed": 1
   },
   {
-    "id": 217,
+    "id": 220,
     "name": "Dark Treemur",
     "type": "Nature",
     "evoName": "Dark Monfiki",
@@ -2858,5 +2858,31 @@
     "pd": 2,
     "ea": 5,
     "ed": 3
+  },
+  {
+    "id": 221,
+    "name": "Foil Vexie",
+    "type": "Earth",
+    "evoName": "Foil Alionyx",
+    "rarity": "exotic",
+    "hp": 4,
+    "sp": 1,
+    "pa": 1,
+    "pd": 3,
+    "ea": 5,
+    "ed": 4
+  },
+  {
+    "id": 222,
+    "name": "Foil Vhisp",
+    "type": "Wind",
+    "evoName": "Foil Fangale",
+    "rarity": "exotic",
+    "hp": 4,
+    "sp": 4,
+    "pa": 2,
+    "pd": 2,
+    "ea": 5,
+    "ed": 1
   }
 ]

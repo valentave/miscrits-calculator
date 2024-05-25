@@ -48,6 +48,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.0.4</h2>
+                        <hr />
+                        <ul>
+                            <li>Added all 220 available miscrits images</li>
+                            <li>Changed images format from png to webp</li>
+                            <li>Added Foil Vexie and Foil Vhisp (without images)</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.0.3</h2>
                         <hr />
                         <ul>
