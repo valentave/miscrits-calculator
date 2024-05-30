@@ -8,7 +8,7 @@ export default function MiscritMain({miscrit, areBonusOn, arePlatinumOn, setHelp
             <p className="platinum-check">Plat: {arePlatinumOn ? "On" : "Off"}</p>
             <button className="help-button" onClick={() => setHelpActive(true)}>?</button>
             <div className="main__image-container">
-                <img src={"./assets/full-pics/" + miscrit.id + ".webp"} alt="" />
+                <img src={miscrit.name.includes("?") ? "./assets/full-pics/missing.webp" : ("./assets/full-pics/" + miscrit.id + ".webp")} alt="" />
             </div>
         </div>
     )

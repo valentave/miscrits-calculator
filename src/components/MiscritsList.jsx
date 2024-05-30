@@ -19,7 +19,7 @@ export default function MiscritsList({ LIST, selected, setSelected }) {
         </div>
         <div className="miscrits-list__picture-container">
           <div className={"picture-container__rarity rarity-" + miscrit.rarity}></div>
-          <img src={"./assets/profile-pics/" + miscrit.id + ".webp"} alt="" />
+          <img src={miscrit.name.includes("?") ? "./assets/full-pics/missing.webp" : ("./assets/profile-pics/" + miscrit.id + ".webp")} alt="" />
         </div>
         <div className="miscrits-list__name-container">
           <p>{miscrit.name}</p>

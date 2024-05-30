@@ -48,6 +48,18 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.1.0</h2>
+                        <hr />
+                        <ul>
+                            <li>Added default image for no spoilers</li>
+                            <li>Added Foil Vexie and Foil Vhisp images</li>
+                            <li>Added new miscrits (Forest overhaul)</li>
+                            <li>New darks without images (no spoiler)</li>
+                            <li>Applied stats nerf to Mama, Blighted Flue and Dark Poltergust</li>
+                            <li>Applied stats rework to Blighted Cubsprout, Foil Fossillia and Defilio</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.0.5</h2>
                         <hr />
                         <ul>

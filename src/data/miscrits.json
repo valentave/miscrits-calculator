@@ -2475,7 +2475,7 @@
     "type": "Nature",
     "evoName": "Genesis",
     "rarity": "exotic",
-    "hp": 3,
+    "hp": 2,
     "sp": 1,
     "pa": 4,
     "pd": 3,
@@ -2580,10 +2580,10 @@
     "evoName": "Foil Primordius",
     "rarity": "exotic",
     "hp": 3,
-    "sp": 1,
-    "pa": 5,
-    "pd": 3,
-    "ea": 4,
+    "sp": 2,
+    "pa": 4,
+    "pd": 4,
+    "ea": 3,
     "ed": 2
   },
   {
@@ -2723,10 +2723,10 @@
     "evoName": "Blighted Bloomane",
     "rarity": "exotic",
     "hp": 4,
-    "sp": 3,
-    "pa": 3,
-    "pd": 2,
-    "ea": 4,
+    "sp": 2,
+    "pa": 4,
+    "pd": 3,
+    "ea": 3,
     "ed": 2
   },
   {
@@ -2735,11 +2735,11 @@
     "type": "Fire",
     "evoName": "Blighted Afterburn",
     "rarity": "legendary",
-    "hp": 1,
-    "sp": 3,
+    "hp": 3,
+    "sp": 2,
     "pa": 5,
     "pd": 2,
-    "ea": 4,
+    "ea": 2,
     "ed": 4
   },
   {
@@ -2789,10 +2789,10 @@
     "rarity": "exotic",
     "hp": 3,
     "sp": 2,
-    "pa": 2,
+    "pa": 3,
     "pd": 2,
     "ea": 4,
-    "ed": 5
+    "ed": 4
   },
   {
     "id": 216,
@@ -2839,12 +2839,12 @@
     "type": "Wind",
     "evoName": "Dark Zephyrgeist",
     "rarity": "legendary",
-    "hp": 1,
-    "sp": 2,
-    "pa": 5,
-    "pd": 5,
+    "hp": 3,
+    "sp": 4,
+    "pa": 2,
+    "pd": 2,
     "ea": 5,
-    "ed": 1
+    "ed": 2
   },
   {
     "id": 220,
@@ -2884,5 +2884,96 @@
     "pd": 2,
     "ea": 5,
     "ed": 1
+  },
+  {
+    "id": 223,
+    "name": "Dark Sparkupine?",
+    "type": "Fire",
+    "evoName": "Dark Wiquill",
+    "rarity": "rare",
+    "hp": 3,
+    "sp": 1,
+    "pa": 3,
+    "pd": 3,
+    "ea": 2,
+    "ed": 4
+  },
+  {
+    "id": 224,
+    "name": "Dark Squibee?",
+    "type": "Water",
+    "evoName": "Dark Krakenhook",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 2,
+    "pa": 3,
+    "pd": 3,
+    "ea": 3,
+    "ed": 3
+  },
+  {
+    "id": 225,
+    "name": "Dark Twiggum?",
+    "type": "Nature",
+    "evoName": "Dark Willoak",
+    "rarity": "epic",
+    "hp": 4,
+    "sp": 2,
+    "pa": 2,
+    "pd": 2,
+    "ea": 4,
+    "ed": 3
+  },
+  {
+    "id": 226,
+    "name": "Dark Waddles?",
+    "type": "Water",
+    "evoName": "Dark Mallardon",
+    "rarity": "epic",
+    "hp": 4,
+    "sp": 1,
+    "pa": 1,
+    "pd": 2,
+    "ea": 5,
+    "ed": 4
+  },
+  {
+    "id": 227,
+    "name": "Squirmle",
+    "type": "Water",
+    "evoName": "Weylani",
+    "rarity": "common",
+    "hp": 3,
+    "sp": 3,
+    "pa": 1,
+    "pd": 2,
+    "ea": 4,
+    "ed": 2
+  },
+  {
+    "id": 228,
+    "name": "Flurfy",
+    "type": "Nature",
+    "evoName": "Kvetch",
+    "rarity": "common",
+    "hp": 3,
+    "sp": 2,
+    "pa": 3,
+    "pd": 2,
+    "ea": 3,
+    "ed": 2
+  },
+  {
+    "id": 229,
+    "name": "Blobroller",
+    "type": "Nature-Lightning",
+    "evoName": "Vampsower",
+    "rarity": "exotic",
+    "hp": 4,
+    "sp": 1,
+    "pa": 4,
+    "pd": 3,
+    "ea": 3,
+    "ed": 3
   }
 ]

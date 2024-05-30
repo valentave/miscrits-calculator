@@ -99,6 +99,7 @@
 .miscrits-list__picture-container > img {
     width: 100%;
     height: 100%;
+    background: white;
 }
 
 .miscrits-list__name-container {
