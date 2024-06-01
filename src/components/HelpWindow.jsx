@@ -48,6 +48,14 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.1.1</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats buff to Blighted Flue and Dark Poltergust</li>
+                            <li>Applied stats rework to Dark Treemur, Liothning, Blobroller, Foil Vhisp, Foil Vexie, Foil Thundercracker and Foil Waddles</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.1.0</h2>
                         <hr />
                         <ul>

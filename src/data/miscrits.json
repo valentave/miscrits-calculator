@@ -2566,12 +2566,12 @@
     "type": "Water",
     "evoName": "Foil Mallardon",
     "rarity": "exotic",
-    "hp": 3,
-    "sp": 2,
+    "hp": 5,
+    "sp": 1,
     "pa": 2,
-    "pd": 3,
-    "ea": 5,
-    "ed": 3
+    "pd": 5,
+    "ea": 4,
+    "ed": 1
   },
   {
     "id": 199,
@@ -2592,11 +2592,11 @@
     "type": "Lightning",
     "evoName": "Foil Clobberilla",
     "rarity": "exotic",
-    "hp": 3,
-    "sp": 4,
-    "pa": 4,
+    "hp": 1,
+    "sp": 2,
+    "pa": 5,
     "pd": 2,
-    "ea": 3,
+    "ea": 5,
     "ed": 3
   },
   {
@@ -2738,8 +2738,8 @@
     "hp": 3,
     "sp": 2,
     "pa": 5,
-    "pd": 2,
-    "ea": 2,
+    "pd": 3,
+    "ea": 3,
     "ed": 4
   },
   {
@@ -2800,12 +2800,12 @@
     "type": "Lightning",
     "evoName": "Gorgothunder",
     "rarity": "exotic",
-    "hp": 2,
-    "sp": 3,
-    "pa": 4,
+    "hp": 3,
+    "sp": 2,
+    "pa": 2,
     "pd": 4,
     "ea": 4,
-    "ed": 1
+    "ed": 2
   },
   {
     "id": 217,
@@ -2839,8 +2839,8 @@
     "type": "Wind",
     "evoName": "Dark Zephyrgeist",
     "rarity": "legendary",
-    "hp": 3,
-    "sp": 4,
+    "hp": 4,
+    "sp": 5,
     "pa": 2,
     "pd": 2,
     "ea": 5,
@@ -2854,10 +2854,10 @@
     "rarity": "epic",
     "hp": 3,
     "sp": 3,
-    "pa": 1,
+    "pa": 2,
     "pd": 2,
-    "ea": 5,
-    "ed": 3
+    "ea": 4,
+    "ed": 2
   },
   {
     "id": 221,
@@ -2869,8 +2869,8 @@
     "sp": 1,
     "pa": 1,
     "pd": 3,
-    "ea": 5,
-    "ed": 4
+    "ea": 4,
+    "ed": 5
   },
   {
     "id": 222,
@@ -2878,12 +2878,12 @@
     "type": "Wind",
     "evoName": "Foil Fangale",
     "rarity": "exotic",
-    "hp": 4,
-    "sp": 4,
+    "hp": 2,
+    "sp": 5,
     "pa": 2,
     "pd": 2,
     "ea": 5,
-    "ed": 1
+    "ed": 2
   },
   {
     "id": 223,
@@ -2971,9 +2971,9 @@
     "rarity": "exotic",
     "hp": 4,
     "sp": 1,
-    "pa": 4,
+    "pa": 3,
     "pd": 3,
-    "ea": 3,
+    "ea": 4,
     "ed": 3
   }
 ]
