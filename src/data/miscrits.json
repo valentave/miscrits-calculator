@@ -319,7 +319,7 @@
     "rarity": "common",
     "hp": 3,
     "sp": 3,
-    "pa": 4,
+    "pa": 3,
     "pd": 3,
     "ea": 3,
     "ed": 2
@@ -1136,7 +1136,7 @@
     "type": "Earth",
     "evoName": "Primordion",
     "rarity": "epic",
-    "hp": 2,
+    "hp": 1,
     "sp": 1,
     "pa": 5,
     "pd": 5,
@@ -1436,9 +1436,9 @@
     "evoName": "Tornadouse",
     "rarity": "epic",
     "hp": 5,
-    "sp": 3,
-    "pa": 1,
-    "pd": 2,
+    "sp": 2,
+    "pa": 2,
+    "pd": 1,
     "ea": 4,
     "ed": 2
   },
@@ -1786,11 +1786,11 @@
     "type": "Earth",
     "evoName": "Rocklodon",
     "rarity": "rare",
-    "hp": 4,
+    "hp": 3,
     "sp": 3,
     "pa": 4,
     "pd": 3,
-    "ea": 1,
+    "ea": 2,
     "ed": 1
   },
   {
@@ -2072,11 +2072,11 @@
     "type": "Nature",
     "evoName": "Derelicro",
     "rarity": "rare",
-    "hp": 3,
-    "sp": 2,
-    "pa": 2,
+    "hp": 5,
+    "sp": 1,
+    "pa": 1,
     "pd": 2,
-    "ea": 4,
+    "ea": 3,
     "ed": 3
   },
   {
@@ -2633,7 +2633,7 @@
     "rarity": "exotic",
     "hp": 4,
     "sp": 3,
-    "pa": 2,
+    "pa": 1,
     "pd": 3,
     "ea": 4,
     "ed": 3
@@ -2750,10 +2750,10 @@
     "rarity": "exotic",
     "hp": 4,
     "sp": 4,
-    "pa": 1,
-    "pd": 4,
+    "pa": 2,
+    "pd": 2,
     "ea": 4,
-    "ed": 1
+    "ed": 2
   },
   {
     "id": 213,
@@ -2826,11 +2826,11 @@
     "type": "Fire",
     "evoName": "Dark Aukamotive",
     "rarity": "rare",
-    "hp": 2,
+    "hp": 4,
     "sp": 1,
-    "pa": 4,
+    "pa": 3,
     "pd": 2,
-    "ea": 5,
+    "ea": 3,
     "ed": 2
   },
   {
@@ -2932,10 +2932,10 @@
     "rarity": "epic",
     "hp": 4,
     "sp": 1,
-    "pa": 1,
-    "pd": 2,
-    "ea": 5,
-    "ed": 4
+    "pa": 3,
+    "pd": 3,
+    "ea": 3,
+    "ed": 3
   },
   {
     "id": 227,

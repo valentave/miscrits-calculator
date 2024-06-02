@@ -48,6 +48,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.1.3</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats rework to Blighted Fiender, Kelpa, Dark Waddles, Nanaslug, Foil Flintly, Dark Steamguin, Gog, Eggy</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.1.2</h2>
                         <hr />
                         <ul>
