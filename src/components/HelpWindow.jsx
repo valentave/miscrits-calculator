@@ -48,6 +48,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.1.2</h2>
+                        <hr />
+                        <ul>
+                            <li>Added images for Darks Sparkupine, Squibee, Twiggum and Waddles</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.1.1</h2>
                         <hr />
                         <ul>
