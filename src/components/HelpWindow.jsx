@@ -48,6 +48,14 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.1.4</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats buff to Dark Steamguin</li>
+                            <li>Applied stats rework to Waddles, Foil Kiloray</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.1.3</h2>
                         <hr />
                         <ul>

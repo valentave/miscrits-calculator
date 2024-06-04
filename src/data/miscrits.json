@@ -2620,9 +2620,9 @@
     "rarity": "exotic",
     "hp": 4,
     "sp": 3,
-    "pa": 4,
+    "pa": 2,
     "pd": 2,
-    "ea": 3,
+    "ea": 4,
     "ed": 2
   },
   {
@@ -2826,7 +2826,7 @@
     "type": "Fire",
     "evoName": "Dark Aukamotive",
     "rarity": "rare",
-    "hp": 4,
+    "hp": 5,
     "sp": 1,
     "pa": 3,
     "pd": 2,
@@ -2932,10 +2932,10 @@
     "rarity": "epic",
     "hp": 4,
     "sp": 1,
-    "pa": 3,
-    "pd": 3,
-    "ea": 3,
-    "ed": 3
+    "pa": 2,
+    "pd": 2,
+    "ea": 5,
+    "ed": 2
   },
   {
     "id": 227,
