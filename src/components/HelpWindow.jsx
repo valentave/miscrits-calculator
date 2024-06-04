@@ -52,7 +52,7 @@ export default function HelpWindow({setHelpActive}) {
                         <hr />
                         <ul>
                             <li>Applied stats buff to Dark Steamguin</li>
-                            <li>Applied stats rework to Waddles, Foil Kiloray</li>
+                            <li>Applied stats rework to Waddles and Foil Kiloray</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
