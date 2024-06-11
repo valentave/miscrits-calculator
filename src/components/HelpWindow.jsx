@@ -48,6 +48,14 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.1.5 - June 11, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied a lot of stats balances</li>
+                            <li>Added Dark Auger and Dark Aria</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.1.4</h2>
                         <hr />
                         <ul>

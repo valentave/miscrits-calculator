@@ -6,32 +6,6 @@
     "evoName": "Afterburn",
     "rarity": "common",
     "hp": 3,
-    "sp": 1,
-    "pa": 5,
-    "pd": 1,
-    "ea": 2,
-    "ed": 3
-  },
-  {
-    "id": 2,
-    "name": "Flowerpiller",
-    "type": "Nature",
-    "evoName": "Fairyblossom",
-    "rarity": "common",
-    "hp": 3,
-    "sp": 4,
-    "pa": 2,
-    "pd": 1,
-    "ea": 4,
-    "ed": 1
-  },
-  {
-    "id": 3,
-    "name": "Prawnja",
-    "type": "Water",
-    "evoName": "Clawmurai",
-    "rarity": "common",
-    "hp": 3,
     "sp": 2,
     "pa": 4,
     "pd": 3,
@@ -39,17 +13,43 @@
     "ed": 2
   },
   {
+    "id": 2,
+    "name": "Flowerpiller",
+    "type": "Nature",
+    "evoName": "Fairyblossom",
+    "rarity": "common",
+    "hp": 2,
+    "sp": 4,
+    "pa": 2,
+    "pd": 1,
+    "ea": 4,
+    "ed": 2
+  },
+  {
+    "id": 3,
+    "name": "Prawnja",
+    "type": "Water",
+    "evoName": "Clawmurai",
+    "rarity": "common",
+    "hp": 4,
+    "sp": 1,
+    "pa": 2,
+    "pd": 3,
+    "ea": 2,
+    "ed": 3
+  },
+  {
     "id": 4,
     "name": "Flameling",
     "type": "Fire",
     "evoName": "Infernus",
     "rarity": "common",
-    "hp": 1,
-    "sp": 4,
+    "hp": 2,
+    "sp": 3,
     "pa": 2,
     "pd": 2,
     "ea": 4,
-    "ed": 2
+    "ed": 3
   },
   {
     "id": 5,
@@ -96,8 +96,8 @@
     "type": "Nature",
     "evoName": "Toucanaconda",
     "rarity": "common",
-    "hp": 2,
-    "sp": 1,
+    "hp": 1,
+    "sp": 2,
     "pa": 2,
     "pd": 4,
     "ea": 4,
@@ -187,12 +187,12 @@
     "type": "Fire",
     "evoName": "Anublaze",
     "rarity": "common",
-    "hp": 3,
+    "hp": 1,
     "sp": 4,
-    "pa": 2,
-    "pd": 1,
+    "pa": 1,
+    "pd": 2,
     "ea": 4,
-    "ed": 2
+    "ed": 3
   },
   {
     "id": 16,
@@ -306,9 +306,9 @@
     "rarity": "common",
     "hp": 2,
     "sp": 3,
-    "pa": 1,
-    "pd": 2,
-    "ea": 4,
+    "pa": 3,
+    "pd": 1,
+    "ea": 3,
     "ed": 3
   },
   {
@@ -317,11 +317,11 @@
     "type": "Nature",
     "evoName": "Miraca",
     "rarity": "common",
-    "hp": 3,
+    "hp": 2,
     "sp": 3,
     "pa": 3,
     "pd": 3,
-    "ea": 3,
+    "ea": 4,
     "ed": 2
   },
   {
@@ -423,7 +423,7 @@
     "rarity": "epic",
     "hp": 3,
     "sp": 2,
-    "pa": 5,
+    "pa": 4,
     "pd": 2,
     "ea": 3,
     "ed": 3
@@ -434,12 +434,12 @@
     "type": "Nature",
     "evoName": "Grastodon",
     "rarity": "common",
-    "hp": 1,
-    "sp": 2,
+    "hp": 4,
+    "sp": 1,
     "pa": 2,
     "pd": 3,
     "ea": 2,
-    "ed": 5
+    "ed": 3
   },
   {
     "id": 35,
@@ -463,7 +463,7 @@
     "hp": 4,
     "sp": 2,
     "pa": 4,
-    "pd": 3,
+    "pd": 2,
     "ea": 3,
     "ed": 2
   },
@@ -578,10 +578,10 @@
     "evoName": "Aquine",
     "rarity": "common",
     "hp": 1,
-    "sp": 4,
+    "sp": 2,
     "pa": 2,
-    "pd": 2,
-    "ea": 3,
+    "pd": 3,
+    "ea": 4,
     "ed": 3
   },
   {
@@ -724,8 +724,8 @@
     "sp": 2,
     "pa": 4,
     "pd": 3,
-    "ea": 2,
-    "ed": 2
+    "ea": 4,
+    "ed": 1
   },
   {
     "id": 57,
@@ -863,12 +863,12 @@
     "type": "Nature",
     "evoName": "Willoak",
     "rarity": "common",
-    "hp": 4,
+    "hp": 2,
     "sp": 2,
-    "pa": 1,
-    "pd": 2,
+    "pa": 2,
+    "pd": 3,
     "ea": 4,
-    "ed": 2
+    "ed": 3
   },
   {
     "id": 68,
@@ -993,11 +993,11 @@
     "type": "Water",
     "evoName": "Kalamos",
     "rarity": "common",
-    "hp": 1,
-    "sp": 4,
-    "pa": 1,
+    "hp": 3,
+    "sp": 2,
+    "pa": 2,
     "pd": 2,
-    "ea": 4,
+    "ea": 3,
     "ed": 3
   },
   {
@@ -1058,7 +1058,7 @@
     "type": "Lightning",
     "evoName": "Hydraffe",
     "rarity": "epic",
-    "hp": 3,
+    "hp": 2,
     "sp": 1,
     "pa": 5,
     "pd": 3,
@@ -1124,10 +1124,10 @@
     "evoName": "Krakenhook",
     "rarity": "common",
     "hp": 1,
-    "sp": 2,
-    "pa": 4,
-    "pd": 3,
-    "ea": 3,
+    "sp": 5,
+    "pa": 1,
+    "pd": 2,
+    "ea": 4,
     "ed": 2
   },
   {
@@ -1267,11 +1267,11 @@
     "evoName": "Aukamotive",
     "rarity": "common",
     "hp": 2,
-    "sp": 1,
-    "pa": 3,
+    "sp": 2,
+    "pa": 2,
     "pd": 3,
-    "ea": 4,
-    "ed": 2
+    "ea": 2,
+    "ed": 4
   },
   {
     "id": 99,
@@ -1409,11 +1409,11 @@
     "type": "Water",
     "evoName": "Mallardon",
     "rarity": "rare",
-    "hp": 4,
-    "sp": 1,
+    "hp": 3,
+    "sp": 2,
     "pa": 1,
-    "pd": 1,
-    "ea": 5,
+    "pd": 2,
+    "ea": 4,
     "ed": 4
   },
   {
@@ -1437,7 +1437,7 @@
     "rarity": "epic",
     "hp": 5,
     "sp": 2,
-    "pa": 2,
+    "pa": 3,
     "pd": 1,
     "ea": 4,
     "ed": 2
@@ -1474,10 +1474,10 @@
     "type": "Nature",
     "evoName": "Monfiki",
     "rarity": "rare",
-    "hp": 3,
-    "sp": 3,
-    "pa": 2,
-    "pd": 1,
+    "hp": 4,
+    "sp": 2,
+    "pa": 1,
+    "pd": 3,
     "ea": 4,
     "ed": 3
   },
@@ -1489,10 +1489,10 @@
     "rarity": "rare",
     "hp": 3,
     "sp": 1,
-    "pa": 3,
-    "pd": 3,
-    "ea": 3,
-    "ed": 3
+    "pa": 2,
+    "pd": 4,
+    "ea": 4,
+    "ed": 2
   },
   {
     "id": 116,
@@ -1500,12 +1500,12 @@
     "type": "Fire",
     "evoName": "Dark Afterburn",
     "rarity": "rare",
-    "hp": 2,
-    "sp": 2,
-    "pa": 5,
-    "pd": 3,
+    "hp": 4,
+    "sp": 1,
+    "pa": 4,
+    "pd": 4,
     "ea": 1,
-    "ed": 3
+    "ed": 2
   },
   {
     "id": 117,
@@ -1514,11 +1514,11 @@
     "evoName": "Dark Fairyblossom",
     "rarity": "rare",
     "hp": 3,
-    "sp": 2,
+    "sp": 1,
     "pa": 2,
     "pd": 2,
     "ea": 5,
-    "ed": 2
+    "ed": 3
   },
   {
     "id": 118,
@@ -1526,12 +1526,12 @@
     "type": "Water",
     "evoName": "Dark Clawmurai",
     "rarity": "rare",
-    "hp": 3,
-    "sp": 2,
+    "hp": 4,
+    "sp": 1,
     "pa": 4,
     "pd": 3,
-    "ea": 2,
-    "ed": 2
+    "ea": 1,
+    "ed": 3
   },
   {
     "id": 119,
@@ -1539,12 +1539,12 @@
     "type": "Fire",
     "evoName": "Eruptacus",
     "rarity": "rare",
-    "hp": 2,
-    "sp": 4,
+    "hp": 3,
+    "sp": 3,
     "pa": 1,
-    "pd": 1,
-    "ea": 4,
-    "ed": 4
+    "pd": 2,
+    "ea": 5,
+    "ed": 3
   },
   {
     "id": 120,
@@ -1565,11 +1565,11 @@
     "type": "Fire",
     "evoName": "Minotorch",
     "rarity": "epic",
-    "hp": 2,
+    "hp": 3,
     "sp": 1,
     "pa": 3,
     "pd": 3,
-    "ea": 5,
+    "ea": 4,
     "ed": 3
   },
   {
@@ -1593,9 +1593,9 @@
     "rarity": "common",
     "hp": 3,
     "sp": 2,
-    "pa": 3,
+    "pa": 2,
     "pd": 2,
-    "ea": 2,
+    "ea": 3,
     "ed": 3
   },
   {
@@ -1656,11 +1656,11 @@
     "type": "Wind",
     "evoName": "Wyndasia",
     "rarity": "common",
-    "hp": 1,
+    "hp": 2,
     "sp": 4,
-    "pa": 4,
+    "pa": 2,
     "pd": 1,
-    "ea": 3,
+    "ea": 4,
     "ed": 2
   },
   {
@@ -1721,12 +1721,12 @@
     "type": "Nature",
     "evoName": "Serpasoar",
     "rarity": "common",
-    "hp": 2,
-    "sp": 4,
+    "hp": 3,
+    "sp": 3,
     "pa": 2,
-    "pd": 1,
-    "ea": 3,
-    "ed": 3
+    "pd": 2,
+    "ea": 4,
+    "ed": 1
   },
   {
     "id": 134,
@@ -1760,11 +1760,11 @@
     "type": "Wind",
     "evoName": "Zephyrgeist",
     "rarity": "rare",
-    "hp": 2,
-    "sp": 3,
-    "pa": 3,
+    "hp": 3,
+    "sp": 2,
+    "pa": 2,
     "pd": 2,
-    "ea": 3,
+    "ea": 4,
     "ed": 3
   },
   {
@@ -1790,8 +1790,8 @@
     "sp": 3,
     "pa": 4,
     "pd": 3,
-    "ea": 2,
-    "ed": 1
+    "ea": 1,
+    "ed": 2
   },
   {
     "id": 139,
@@ -1801,8 +1801,8 @@
     "rarity": "rare",
     "hp": 2,
     "sp": 5,
-    "pa": 3,
-    "pd": 3,
+    "pa": 4,
+    "pd": 2,
     "ea": 2,
     "ed": 1
   },
@@ -1864,12 +1864,12 @@
     "type": "Nature",
     "evoName": "Bloomane",
     "rarity": "common",
-    "hp": 4,
-    "sp": 2,
-    "pa": 3,
-    "pd": 2,
-    "ea": 3,
-    "ed": 1
+    "hp": 2,
+    "sp": 4,
+    "pa": 4,
+    "pd": 1,
+    "ea": 2,
+    "ed": 2
   },
   {
     "id": 145,
@@ -2141,7 +2141,7 @@
     "sp": 3,
     "pa": 3,
     "pd": 2,
-    "ea": 4,
+    "ea": 5,
     "ed": 1
   },
   {
@@ -2206,8 +2206,8 @@
     "sp": 2,
     "pa": 2,
     "pd": 3,
-    "ea": 5,
-    "ed": 1
+    "ea": 4,
+    "ed": 3
   },
   {
     "id": 171,
@@ -2215,10 +2215,10 @@
     "type": "Earth",
     "evoName": "Dark Geotoad",
     "rarity": "",
-    "hp": 5,
+    "hp": 4,
     "sp": 1,
     "pa": 2,
-    "pd": 1,
+    "pd": 2,
     "ea": 3,
     "ed": 4
   },
@@ -2280,11 +2280,11 @@
     "type": "Water",
     "evoName": "Coraswine",
     "rarity": "common",
-    "hp": 2,
-    "sp": 1,
+    "hp": 4,
+    "sp": 2,
     "pa": 3,
-    "pd": 4,
-    "ea": 3,
+    "pd": 2,
+    "ea": 2,
     "ed": 2
   },
   {
@@ -2423,10 +2423,10 @@
     "type": "Nature",
     "evoName": "Subterhuge",
     "rarity": "common",
-    "hp": 1,
+    "hp": 2,
     "sp": 2,
     "pa": 3,
-    "pd": 4,
+    "pd": 3,
     "ea": 2,
     "ed": 3
   },
@@ -2503,10 +2503,10 @@
     "rarity": "common",
     "hp": 3,
     "sp": 2,
-    "pa": 4,
-    "pd": 2,
-    "ea": 3,
-    "ed": 2
+    "pa": 5,
+    "pd": 3,
+    "ea": 2,
+    "ed": 1
   },
   {
     "id": 194,
@@ -2644,12 +2644,12 @@
     "type": "Wind",
     "evoName": "Airyn",
     "rarity": "rare",
-    "hp": 3,
+    "hp": 2,
     "sp": 4,
     "pa": 1,
     "pd": 2,
-    "ea": 5,
-    "ed": 1
+    "ea": 4,
+    "ed": 3
   },
   {
     "id": 205,
@@ -2710,7 +2710,7 @@
     "evoName": "Doruden",
     "rarity": "epic",
     "hp": 3,
-    "sp": 2,
+    "sp": 1,
     "pa": 2,
     "pd": 5,
     "ea": 4,
@@ -2802,9 +2802,9 @@
     "rarity": "exotic",
     "hp": 3,
     "sp": 2,
-    "pa": 2,
+    "pa": 4,
     "pd": 4,
-    "ea": 4,
+    "ea": 2,
     "ed": 2
   },
   {
@@ -2813,8 +2813,8 @@
     "type": "Fire",
     "evoName": "Dark Anublaze",
     "rarity": "rare",
-    "hp": 3,
-    "sp": 4,
+    "hp": 2,
+    "sp": 5,
     "pa": 2,
     "pd": 1,
     "ea": 4,
@@ -2826,11 +2826,11 @@
     "type": "Fire",
     "evoName": "Dark Aukamotive",
     "rarity": "rare",
-    "hp": 5,
+    "hp": 4,
     "sp": 1,
     "pa": 3,
     "pd": 2,
-    "ea": 3,
+    "ea": 4,
     "ed": 2
   },
   {
@@ -2891,11 +2891,11 @@
     "type": "Fire",
     "evoName": "Dark Wiquill",
     "rarity": "rare",
-    "hp": 3,
+    "hp": 2,
     "sp": 1,
     "pa": 3,
     "pd": 3,
-    "ea": 2,
+    "ea": 3,
     "ed": 4
   },
   {
@@ -2905,10 +2905,10 @@
     "evoName": "Dark Krakenhook",
     "rarity": "rare",
     "hp": 2,
-    "sp": 2,
+    "sp": 1,
     "pa": 3,
     "pd": 3,
-    "ea": 3,
+    "ea": 4,
     "ed": 3
   },
   {
@@ -2935,7 +2935,7 @@
     "pa": 2,
     "pd": 2,
     "ea": 5,
-    "ed": 2
+    "ed": 3
   },
   {
     "id": 227,
@@ -2958,9 +2958,9 @@
     "rarity": "common",
     "hp": 3,
     "sp": 2,
-    "pa": 3,
+    "pa": 2,
     "pd": 2,
-    "ea": 3,
+    "ea": 4,
     "ed": 2
   },
   {
@@ -2973,6 +2973,32 @@
     "sp": 1,
     "pa": 3,
     "pd": 3,
+    "ea": 4,
+    "ed": 3
+  },
+  {
+    "id": 230,
+    "name": "Dark Auger",
+    "type": "Earth",
+    "evoName": "Dark Rivett",
+    "rarity": "epic",
+    "hp": 4,
+    "sp": 5,
+    "pa": 5,
+    "pd": 1,
+    "ea": 1,
+    "ed": 1
+  },
+  {
+    "id": 231,
+    "name": "Dark Aria",
+    "type": "Wind",
+    "evoName": "Dark Wyndasia",
+    "rarity": "rare",
+    "hp": 1,
+    "sp": 4,
+    "pa": 2,
+    "pd": 2,
     "ea": 4,
     "ed": 3
   }
