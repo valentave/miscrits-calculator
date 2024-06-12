@@ -53,6 +53,7 @@ export default function HelpWindow({setHelpActive}) {
                         <ul>
                             <li>Applied a lot of stats balances</li>
                             <li>Added Dark Auger and Dark Aria</li>
+                            <li>Added base stats indicator</li>
                         </ul>
                     </div>
                     <div className="changelog-version">

@@ -61,6 +61,45 @@
     justify-content: center;
 }
 
-.stat-buttons-container > button:hover ~ div {
+.stat-buttons-container > button:hover ~ .bonus-popup {
     display: flex;
+}
+
+.stat-buttons-container > button:hover ~ .base-stats-popup {
+    display: grid;
+}
+
+.base-stats-popup {
+    position: absolute;
+    display: grid;
+    background: black;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100px;
+    height: 24px;
+    right: -100px;
+    align-items: center;
+    padding: 2px;
+}
+
+.base-stat-colored {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    transform: rotate(-90deg);
+}
+
+.base-stat-green {
+    background: linear-gradient(#a2ff00,#639802);
+}
+
+.base-stat-yellow {
+    background: linear-gradient(#ffd37a,#e0a327);
+}
+
+.base-stat-red {
+    background: linear-gradient(#ff564a,#bb2419);
+}
+
+.base-stat-blue {
+    background: linear-gradient(#46abeb,#186b9e);
 }
