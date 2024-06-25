@@ -48,6 +48,16 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.3.2 - June 26, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>The version numbering was changed to follow the line of the game</li>
+                            <li>Added many new crits
+                                <ul><li>Some of them do not have images yet so as not to spoil them</li></ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.1.5 - June 11, 2024</h2>
                         <hr />
                         <ul>
