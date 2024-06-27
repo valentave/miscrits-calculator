@@ -16,7 +16,7 @@
 }
 
 .main__image-container > img {
-    max-height: 250px;
+    height: 250px;
     width: auto;
     animation-duration: 3s;
     animation-name: fullMiscrit;

@@ -3017,7 +3017,7 @@
   },
   {
     "id": 233,
-    "name": "Dark Tulipinny?",
+    "name": "Dark Tulipinny",
     "type": "Nature",
     "evoName": "Dark Ongabonga",
     "rarity": "epic",
@@ -3160,9 +3160,9 @@
   },
   {
     "id": 244,
-    "name": "Dark Tongutail?",
+    "name": "Dark Tongutail",
     "type": "Earth",
-    "evoName": "Bifurcrystal",
+    "evoName": "Dark Bifurcrystal",
     "rarity": "rare",
     "hp": 2,
     "sp": 1,

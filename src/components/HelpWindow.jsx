@@ -48,7 +48,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
-                        <h2>v0.3.2 - June 26, 2024</h2>
+                        <h2>v0.3.4 - June 26, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added images for Dark Tongutail and Dark Tulipinny</li>
+                            <li>Changed the size of images to fit 250px height</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
+                        <h2>v0.3.2 - June 24, 2024</h2>
                         <hr />
                         <ul>
                             <li>The version numbering was changed to follow the line of the game</li>
