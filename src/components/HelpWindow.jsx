@@ -6,13 +6,13 @@ export default function HelpWindow({setHelpActive}) {
     const [help, setHelp] = useState(true)
     const [changelog, setChangelog] = useState(false)
 
-    function handleTabs() {
-        if (help) {
-            setHelp(false)
-            setChangelog(true)
-        } else {
+    function handleTabs(tab) {
+        if (tab === 1) {
             setHelp(true)
             setChangelog(false)
+        } else if (tab === 2){
+            setHelp(false)
+            setChangelog(true)
         }
     }
 
@@ -21,8 +21,8 @@ export default function HelpWindow({setHelpActive}) {
             <div className="help-window">
                 <button className="close-help-button" onClick={() => setHelpActive(false)}>X</button>
                 <div className="help-tabs-container">
-                    <button onClick={() => handleTabs()}><h1>HELP</h1></button>
-                    <button onClick={() => handleTabs()}><h1>CHANGELOG</h1></button>
+                    <button onClick={() => handleTabs(1)}><h1>HELP</h1></button>
+                    <button onClick={() => handleTabs(2)}><h1>CHANGELOG</h1></button>
                 </div>
                 {help &&
                 <div className="help-container">
@@ -47,6 +47,14 @@ export default function HelpWindow({setHelpActive}) {
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
+                    <div className="changelog-version">
+                        <h2>v0.3.5 - June 27, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Fixed bug with tabs in help window</li>
+                            <li>Fixed bug with help button not showing if you don&apos;t select a Miscrit</li>
+                        </ul>
+                    </div>
                     <div className="changelog-version">
                         <h2>v0.3.4 - June 26, 2024</h2>
                         <hr />

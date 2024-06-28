@@ -41,13 +41,14 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    top: 3px;
-    right: 3px;
+    top: 30px;
+    right: 27px;
     background: #6B89A1;
     border-radius: 5px;
     color: white;
     font-weight: 900;
     font-size: 1.1rem;
+    z-index: 100;
 }
 
 @keyframes fullMiscrit {

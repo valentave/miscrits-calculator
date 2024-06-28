@@ -162,6 +162,7 @@ function App() {
       {helpActive && 
       <HelpWindow setHelpActive={setHelpActive}/>}
       <div className="calculator-container">
+        <button className="help-button" onClick={() => setHelpActive(true)}>?</button>
         <MiscritsFilter setFilterType={setFilterType} setFilterRarity={setFilterRarity}/>
         <MiscritsList LIST={filteredList} selected={selectedMiscrit} setSelected={handleSelected}/>
         <div className="miscrit-name-container">
