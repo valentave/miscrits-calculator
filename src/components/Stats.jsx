@@ -48,7 +48,7 @@ export default function Stats({miscrit, areBonusOn, bonus, arePlatinumOn, platin
                 </div>
                 <div className="base-stats-popup">
                     {[0,0,0,0,0].map((value,index) => (
-                        <div key={"base-stat-"+index} className={miscrit.ed > index ? "base-stat-colored base-stat-blue" : "base-stat-empty"}></div>
+                        <div key={"base-stat-"+index} className={miscrit.pa > index ? "base-stat-colored base-stat-blue" : "base-stat-empty"}></div>
                     ))}
                 </div>
             </div>
