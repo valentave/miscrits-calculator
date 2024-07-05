@@ -3170,5 +3170,57 @@
     "pd": 4,
     "ea": 2,
     "ed": 2
+  },
+  {
+    "id": 245,
+    "name": "Podo",
+    "type": "Lightning",
+    "evoName": "Tikki",
+    "rarity": "epic",
+    "hp": 5,
+    "sp": 2,
+    "pa": 2,
+    "pd": 4,
+    "ea": 4,
+    "ed": 2
+  },
+  {
+    "id": 246,
+    "name": "Splender",
+    "type": "Nature-Earth",
+    "evoName": "Bolderon",
+    "rarity": "exotic",
+    "hp": 4,
+    "sp": 5,
+    "pa": 1,
+    "pd": 2,
+    "ea": 4,
+    "ed": 2
+  },
+  {
+    "id": 247,
+    "name": "Freedom",
+    "type": "Fire-Wind",
+    "evoName": "Patrior",
+    "rarity": "exotic",
+    "hp": 3,
+    "sp": 1,
+    "pa": 5,
+    "pd": 2,
+    "ea": 2,
+    "ed": 5
+  },
+  {
+    "id": 248,
+    "name": "Spangles",
+    "type": "Lightning",
+    "evoName": "Nova",
+    "rarity": "exotic",
+    "hp": 1,
+    "sp": 4,
+    "pa": 3,
+    "pd": 2,
+    "ea": 4,
+    "ed": 4
   }
 ]

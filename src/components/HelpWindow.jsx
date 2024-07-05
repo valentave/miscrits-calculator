@@ -48,6 +48,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.4.0 - July 4, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Bodo, Splender, Freedom and Spangles</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.3.5 - June 27, 2024</h2>
                         <hr />
                         <ul>
