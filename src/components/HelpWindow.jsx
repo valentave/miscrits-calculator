@@ -48,6 +48,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.4.3 - July 8, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Dark and Foil Luna images</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.4.1 - July 6, 2024</h2>
                         <hr />
                         <ul>
