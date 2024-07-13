@@ -3248,5 +3248,18 @@
     "pd": 3,
     "ea": 3,
     "ed": 4
+  },
+  {
+    "id": 251,
+    "name": "Flaring",
+    "type": "Fire",
+    "evoName": "Lapinfire",
+    "rarity": "epic",
+    "hp": 2,
+    "sp": 5,
+    "pa": 4,
+    "pd": 2,
+    "ea": 4,
+    "ed": 2
   }
 ]
