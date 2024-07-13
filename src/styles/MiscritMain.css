@@ -51,6 +51,10 @@
     z-index: 100;
 }
 
+.picture-available-false {
+    filter: brightness(0);
+}
+
 @keyframes fullMiscrit {
     0% {
         transform: scaleX(0.95) scaleY(1.05);
