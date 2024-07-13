@@ -53,7 +53,7 @@ export default function HelpWindow({setHelpActive}) {
                         <ul>
                             <li>Added Flaring</li>
                             <li>Desaturated image in list for unavailable miscrits</li>
-                            <li>Turned black main picture for non available miscrits</li>
+                            <li>Turned black main picture for unavailable miscrits</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
