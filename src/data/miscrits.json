@@ -109,7 +109,7 @@
     "pd": 4,
     "ea": 4,
     "ed": 2,
-    "available": true
+    "available": false
   },
   {
     "id": 9,
@@ -340,7 +340,7 @@
     "name": "Bloomple",
     "type": "Nature",
     "evoName": "Miraca",
-    "rarity": "common",
+    "rarity": "epic",
     "hp": 2,
     "sp": 3,
     "pa": 3,
