@@ -3512,5 +3512,33 @@
     "ea": 4,
     "ed": 2,
     "available": true
+  },
+  {
+    "id": 252,
+    "name": "Dark Squirmle?",
+    "type": "Water",
+    "evoName": "Dark Weylani",
+    "rarity": "rare",
+    "hp": 4,
+    "sp": 3,
+    "pa": 1,
+    "pd": 2,
+    "ea": 4,
+    "ed": 2,
+    "available": true
+  },
+  {
+    "id": 253,
+    "name": "Dark Quirk?",
+    "type": "Nature",
+    "evoName": "Dark Subterhuge",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 2,
+    "pa": 4,
+    "pd": 3,
+    "ea": 2,
+    "ed": 3,
+    "available": true
   }
 ]

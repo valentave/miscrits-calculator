@@ -48,6 +48,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.4.7 - July 19, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Dark Quirk and Dark Squirmle without images (no spoiler)</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.4.4 - July 13, 2024</h2>
                         <hr />
                         <ul>
