@@ -1,9 +1,10 @@
 /* eslint-disable react/prop-types */
 import "../styles/Stats.css"
 
-export default function Stats({miscrit, areBonusOn, bonus, arePlatinumOn, platinum, nature, setNature}) {
+export default function Stats({miscrit, areBonusOn, bonus, arePlatinumOn, platinum, nature, setNature, setEditActive}) {
     return(
         <div className="stats-container">
+            <button className="edit-button" onClick={() => setEditActive(true)}>Edit bonus</button>
             <div className="stat-buttons-container">
                 <button onClick={() => setNature({...nature, hp: (nature.hp == "green" ? "red" : nature.hp == "red" ? "white" : "green")})}><img src="./assets/other/hp.png" alt="" /></button>
                 <button onClick={() => setNature({...nature, hp: (nature.hp == "green" ? "red" : nature.hp == "red" ? "white" : "green")})} className={"stat stat-"+nature.hp}>{miscrit.hp * 12 + (nature.hp == "green" ? 109 : nature.hp == "white" ? 100 : 91) + (arePlatinumOn && platinum.hp) + (areBonusOn && bonus.hp)}</button>

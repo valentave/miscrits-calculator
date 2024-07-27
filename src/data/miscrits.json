@@ -817,12 +817,12 @@
     "type": "Lightning",
     "evoName": "Napoleon",
     "rarity": "common",
-    "hp": 5,
+    "hp": 3,
     "sp": 2,
-    "pa": 3,
+    "pa": 5,
     "pd": 3,
     "ea": 1,
-    "ed": 1,
+    "ed": 2,
     "available": true
   },
   {
@@ -1366,9 +1366,9 @@
     "hp": 2,
     "sp": 2,
     "pa": 2,
-    "pd": 3,
-    "ea": 2,
-    "ed": 4,
+    "pd": 2,
+    "ea": 4,
+    "ed": 3,
     "available": true
   },
   {
@@ -1826,10 +1826,10 @@
     "evoName": "Buzzcargo",
     "rarity": "common",
     "hp": 3,
-    "sp": 2,
+    "sp": 1,
     "pa": 1,
     "pd": 3,
-    "ea": 3,
+    "ea": 4,
     "ed": 3,
     "available": true
   },
@@ -3115,9 +3115,9 @@
     "rarity": "rare",
     "hp": 2,
     "sp": 1,
-    "pa": 3,
+    "pa": 4,
     "pd": 3,
-    "ea": 3,
+    "ea": 2,
     "ed": 4,
     "available": true
   },
@@ -3515,7 +3515,7 @@
   },
   {
     "id": 252,
-    "name": "Dark Squirmle?",
+    "name": "Dark Squirmle",
     "type": "Water",
     "evoName": "Dark Weylani",
     "rarity": "rare",
@@ -3529,7 +3529,7 @@
   },
   {
     "id": 253,
-    "name": "Dark Quirk?",
+    "name": "Dark Quirk",
     "type": "Nature",
     "evoName": "Dark Subterhuge",
     "rarity": "rare",

@@ -7,6 +7,7 @@ import LIST from "./data/miscrits.json"
 import Options from "./components/Options"
 import Stats from "./components/Stats"
 import HelpWindow from "./components/HelpWindow"
+import EditBonuswindow from "./components/EditBonusWindow"
 
 function App() {
   const [selectedMiscrit, setSelectedMiscrit] = useState(false)
@@ -16,6 +17,7 @@ function App() {
   const [areBonusOn, setAreBonusOn] = useState(false)
   const [arePlatinumOn, setArePlatinumOn] = useState(false)
   const [helpActive, setHelpActive] = useState(false)
+  const [editActive, setEditActive] = useState(false)
   const [bonus, setBonus] = useState({
     hp: 0,
     sp: 0,
@@ -67,7 +69,23 @@ function App() {
     return distribution;
   }
 
-  function handlePlatinum() {
+  function handlePlatinum(list) {
+    if(list) {
+      setPlatinum({
+        hp: list[0],
+        sp: list[1],
+        ea: list[2],
+        pa: list[3],
+        ed: list[4],
+        pd: list[5],
+      })
+      if (list[0] + list[1] + list[2] + list[3] + list[4] + list[5]) {
+        setArePlatinumOn(true)
+      } else {
+        setArePlatinumOn(false)
+      }
+      return 1
+    }
     if (arePlatinumOn) {
       setArePlatinumOn(false)
     } else {
@@ -84,7 +102,23 @@ function App() {
     }
   }
 
-  function handleBonus() {
+  function handleBonus(list) {
+    if(list) {
+      setBonus({
+        hp: list[0],
+        sp: list[1],
+        ea: list[2],
+        pa: list[3],
+        ed: list[4],
+        pd: list[5],
+      })
+      if (list[0] + list[1] + list[2] + list[3] + list[4] + list[5]) {
+        setAreBonusOn(true)
+      } else {
+        setAreBonusOn(false)
+      }
+      return 1
+    }
     if(areBonusOn) {
       setAreBonusOn(false)
     } else {
@@ -161,6 +195,8 @@ function App() {
     <main>
       {helpActive && 
       <HelpWindow setHelpActive={setHelpActive}/>}
+      {editActive &&
+      <EditBonuswindow setEditActive={setEditActive} bonus={bonus} platinum={platinum} changePlatinum={handlePlatinum} changeBonus={handleBonus}/>}
       <div className="calculator-container">
         <button className="help-button" onClick={() => setHelpActive(true)}>?</button>
         <MiscritsFilter setFilterType={setFilterType} setFilterRarity={setFilterRarity}/>
@@ -172,7 +208,7 @@ function App() {
         <Options setPlatinum={handlePlatinum} setBonus={handleBonus} rebonus={rebonus} changeNature={changeNature}/>
         }
         {selectedMiscrit &&
-        <Stats miscrit={selectedMiscrit} areBonusOn={areBonusOn} bonus={bonus} arePlatinumOn={arePlatinumOn} platinum={platinum} nature={statsNature} setNature={setStatsNature}/>
+        <Stats miscrit={selectedMiscrit} areBonusOn={areBonusOn} bonus={bonus} arePlatinumOn={arePlatinumOn} platinum={platinum} nature={statsNature} setNature={setStatsNature} setEditActive={setEditActive}/>
         }
         {selectedMiscrit &&
         <MiscritMain miscrit={selectedMiscrit} areBonusOn={areBonusOn} arePlatinumOn={arePlatinumOn} setHelpActive={setHelpActive}/>

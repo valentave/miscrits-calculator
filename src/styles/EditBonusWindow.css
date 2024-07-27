@@ -1,0 +1,61 @@
+.input-bonus {
+    width: 8ch;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.confirm-edit-button {
+    height: 2rem;
+    width: fit-content;
+    padding: 0 2ch;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    background: rgb(0, 133, 0);
+    border: 1px solid lightgreen;
+    color: lightgreen;
+    transition: 0.1s;
+}
+
+.confirm-edit-button:hover {
+    background: lightgreen;
+    border-color: green;
+    color: green;
+}
+
+.edit-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit-window table {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.alert-window {
+    text-align: center;
+}
+
+.alert-window > h2 {
+    color: yellow;
+}
+
+.green-text {
+    color: rgb(28, 226, 28)
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.red-text {
+    color: rgb(235, 55, 55);
+}
+
+.blue-text {
+    color: rgb(0, 0, 255);
+}

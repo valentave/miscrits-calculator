@@ -43,15 +43,31 @@ export default function HelpWindow({setHelpActive}) {
                             </ul>
                         </li>
                         <li>In the game, a level 30 miscrit already has 87 bonus points automatically and randomly assigned, but here they are disabled by default.</li>
+                        <li>You can edit the bonus distribution by clicking in the &quot;Edit bonus&quot; button. <br />
+                            <ul>
+                                <li>You can turn off or on these bonuses just by setting it to 0 or higher.</li>
+                                <li>For level bonuses you must set the total points in 87 if you want to edit these bonuses.</li>
+                                <li>If you do a &quot;rebonus&quot; or turn off and on some of the bonus, you will lose your edited distribution.</li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.4.8 - July 27, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats rework to Steamguin, Dark Sparkupine, Nero and Sparkslug</li>
+                            <li>Now you can edit the bonus distribution!</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.4.7 - July 19, 2024</h2>
                         <hr />
                         <ul>
-                            <li>Added Dark Quirk and Dark Squirmle without images (no spoiler)</li>
+                            <li>Added Dark Quirk and Dark Squirmle</li>
                         </ul>
                     </div>
                     <div className="changelog-version">

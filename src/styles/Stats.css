@@ -103,3 +103,16 @@
 .base-stat-blue {
     background: linear-gradient(#46abeb,#186b9e);
 }
+
+.edit-button {
+    position: absolute;
+    top: -63px;
+    right: -8px;
+    background: #6B89A1;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    height: fit-content;
+    z-index: 100;
+    padding: 2px 0;
+}
