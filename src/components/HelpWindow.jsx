@@ -60,6 +60,7 @@ export default function HelpWindow({setHelpActive}) {
                         <hr />
                         <ul>
                             <li>Applied stats rework to Steamguin, Dark Sparkupine, Nero and Sparkslug</li>
+                            <li>Fixed Liothning rarity</li>
                             <li>Now you can edit the bonus distribution!</li>
                         </ul>
                     </div>

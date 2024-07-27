@@ -27,7 +27,7 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
         let copyBonus = {...newBonus}
         copyBonus[stat] = amount
         let sum = copyBonus.hp + copyBonus.sp + copyBonus.ea + copyBonus.pa + copyBonus.ed + copyBonus.pd 
-        if (sum <= 87 && sum >= 0) {
+        if (sum <= 87 && sum >= 0 && amount <= 29) {
             setTotalBonus(sum)
             setNewBonus({...copyBonus})
         } else {
@@ -38,7 +38,7 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
         let copyBonus = {...newPlatinum}
         copyBonus[stat] = amount
         let sum = copyBonus.hp + copyBonus.sp + copyBonus.ea + copyBonus.pa + copyBonus.ed + copyBonus.pd 
-        if (sum <= 29 && sum >= 0) {
+        if (sum <= 29 && sum >= 0 && amount <= 29) {
             setTotalPlatinum(sum)
             setNewPlatinum({...copyBonus})
         } else {
