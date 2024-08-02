@@ -389,7 +389,7 @@
     "pd": 3,
     "ea": 1,
     "ed": 5,
-    "available": false
+    "available": true
   },
   {
     "id": 29,
@@ -403,7 +403,7 @@
     "pd": 3,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 30,
@@ -529,7 +529,7 @@
     "pd": 2,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 39,
@@ -543,7 +543,7 @@
     "pd": 1,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 40,
@@ -557,7 +557,7 @@
     "pd": 1,
     "ea": 1,
     "ed": 3,
-    "available": false
+    "available": true
   },
   {
     "id": 41,
@@ -599,7 +599,7 @@
     "pd": 2,
     "ea": 4,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 44,
@@ -809,7 +809,7 @@
     "pd": 2,
     "ea": 2,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 59,
@@ -907,7 +907,7 @@
     "pd": 2,
     "ea": 2,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 66,
@@ -949,7 +949,7 @@
     "pd": 3,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 69,
@@ -1047,7 +1047,7 @@
     "pd": 3,
     "ea": 2,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 76,
@@ -1282,10 +1282,10 @@
     "hp": 3,
     "sp": 2,
     "pa": 2,
-    "pd": 4,
+    "pd": 3,
     "ea": 5,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 93,
@@ -1411,7 +1411,7 @@
     "pd": 1,
     "ea": 1,
     "ed": 4,
-    "available": false
+    "available": true
   },
   {
     "id": 102,
@@ -2041,7 +2041,7 @@
     "pd": 4,
     "ea": 2,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 147,
@@ -2055,7 +2055,7 @@
     "pd": 5,
     "ea": 2,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 148,
@@ -2069,7 +2069,7 @@
     "pd": 1,
     "ea": 5,
     "ed": 3,
-    "available": false
+    "available": true
   },
   {
     "id": 149,
@@ -2083,7 +2083,7 @@
     "pd": 1,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 150,
@@ -2097,7 +2097,7 @@
     "pd": 3,
     "ea": 3,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 151,
@@ -2111,7 +2111,7 @@
     "pd": 2,
     "ea": 3,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 152,
@@ -2125,7 +2125,7 @@
     "pd": 1,
     "ea": 3,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 153,
@@ -2139,7 +2139,7 @@
     "pd": 3,
     "ea": 2,
     "ed": 3,
-    "available": false
+    "available": true
   },
   {
     "id": 154,
@@ -2153,7 +2153,7 @@
     "pd": 3,
     "ea": 3,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 155,
@@ -2181,7 +2181,7 @@
     "pd": 2,
     "ea": 3,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 157,
@@ -2195,7 +2195,7 @@
     "pd": 2,
     "ea": 3,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 158,
@@ -2223,7 +2223,7 @@
     "pd": 2,
     "ea": 3,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 160,
@@ -2251,7 +2251,7 @@
     "pd": 2,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 162,
@@ -2279,7 +2279,7 @@
     "pd": 3,
     "ea": 3,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 164,
@@ -2293,7 +2293,7 @@
     "pd": 3,
     "ea": 4,
     "ed": 2,
-    "available": false
+    "available": true
   },
   {
     "id": 165,
@@ -2433,7 +2433,7 @@
     "pd": 1,
     "ea": 5,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 175,
@@ -2517,7 +2517,7 @@
     "pd": 4,
     "ea": 2,
     "ed": 5,
-    "available": false
+    "available": true
   },
   {
     "id": 181,
@@ -2545,7 +2545,7 @@
     "pd": 4,
     "ea": 3,
     "ed": 1,
-    "available": false
+    "available": true
   },
   {
     "id": 183,
@@ -2573,7 +2573,7 @@
     "pd": 3,
     "ea": 5,
     "ed": 3,
-    "available": false
+    "available": true
   },
   {
     "id": 185,
@@ -3540,5 +3540,411 @@
     "ea": 2,
     "ed": 3,
     "available": true
+  },
+  {
+    "id": 254,
+    "name": "Skustunk",
+    "type": "Wind",
+    "evoName": "Sulfurious",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 2,
+    "pa": 1,
+    "pd": 4,
+    "ea": 4,
+    "ed": 2,
+    "available": true
+  },
+  {
+    "id": 255,
+    "name": "Blub",
+    "type": "Lightning",
+    "evoName": "Gargantubolt",
+    "rarity": "common",
+    "hp": 5,
+    "sp": 1,
+    "pa": 4,
+    "pd": 2,
+    "ea": 1,
+    "ed": 2,
+    "available":true
+  },
+  {
+    "id": 256,
+    "name": "Pennon",
+    "type": "Wind",
+    "evoName": "Blowhemoth",
+    "rarity": "epic",
+    "hp": 2,
+    "sp": 5,
+    "pa": 4,
+    "pd": 4,
+    "ea": 2,
+    "ed": 1,
+    "available": true
+  },
+  {
+    "id": 257,
+    "name": "Light Frostmite",
+    "type": "Water",
+    "evoName": "Light Abomino",
+    "rarity": "exotic",
+    "hp": 3,
+    "sp": 4,
+    "pa": 1,
+    "pd": 3,
+    "ea": 5,
+    "ed": 2,
+    "available": true
+  },
+  {
+    "id": 258,
+    "name": "Light Bludger",
+    "type": "Earth",
+    "evoName": "Light Convincer",
+    "rarity": "exotic",
+    "hp": 5,
+    "sp": 2,
+    "pa": 4,
+    "pd": 2,
+    "ea": 1,
+    "ed": 4,
+    "available": true
+  },
+  {
+    "id": 259,
+    "name": "Light Tectonyx",
+    "type": "Earth",
+    "evoName": "Light Valrog",
+    "rarity": "exotic",
+    "hp": 3,
+    "sp": 4,
+    "pa": 3,
+    "pd": 3,
+    "ea": 2,
+    "ed": 3,
+    "available": true
+  },
+  {
+    "id": 260,
+    "name": "Light Rafiery",
+    "type": "Fire-Wind",
+    "evoName": "Light Stomprage",
+    "rarity": "epic",
+    "hp": 2,
+    "sp": 4,
+    "pa": 3,
+    "pd": 3,
+    "ea": 2,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 261,
+    "name": "Light Fossillia",
+    "type": "Water-Earth",
+    "evoName": "Light Primordius",
+    "rarity": "epic",
+    "hp": 4,
+    "sp": 2,
+    "pa": 1,
+    "pd": 3,
+    "ea": 5,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 262,
+    "name": "Light Nanaslug",
+    "type": "Wind",
+    "evoName": "Light Tornadouse",
+    "rarity": "exotic",
+    "hp": 4,
+    "sp": 3,
+    "pa": 2,
+    "pd": 2,
+    "ea": 5,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 263,
+    "name": "Light Crickin",
+    "type": "Fire",
+    "evoName": "Light Praze",
+    "rarity": "exotic",
+    "hp": 3,
+    "sp": 3,
+    "pa": 3,
+    "pd": 3,
+    "ea": 3,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 264,
+    "name": "Light Zaptor",
+    "type": "Nature-Lightning",
+    "evoName": "Light Tesladon",
+    "rarity": "exotic",
+    "hp": 3,
+    "sp": 5,
+    "pa": 2,
+    "pd": 2,
+    "ea": 5,
+    "ed": 1,
+    "available": true
+  },
+  {
+    "id": 265,
+    "name": "Light Flue",
+    "type": "Fire-Wind",
+    "evoName": "Light Afterburn",
+    "rarity": "epic",
+    "hp": 5,
+    "sp": 2,
+    "pa": 1,
+    "pd": 3,
+    "ea": 4,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 266,
+    "name": "Light Grubbean",
+    "type": "Nature-Wind",
+    "evoName": "Light Thornaxis",
+    "rarity": "epic",
+    "hp": 2,
+    "sp": 5,
+    "pa": 2,
+    "pd": 2,
+    "ea": 5,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 267,
+    "name": "Light Nibbles",
+    "type": "Water-Wind",
+    "evoName": "Light Coyver",
+    "rarity": "epic",
+    "hp": 3,
+    "sp": 4,
+    "pa": 2,
+    "pd": 3,
+    "ea": 4,
+    "ed": 1,
+    "available": true
+  },
+  {
+    "id": 268,
+    "name": "Light Quirk",
+    "type": "Nature",
+    "evoName": "Light Subterhuge",
+    "rarity": "epic",
+    "hp": 3,
+    "sp": 2,
+    "pa": 4,
+    "pd": 3,
+    "ea": 2,
+    "ed": 3,
+    "available": true
+  },
+  {
+    "id": 269,
+    "name": "Ribos",
+    "type": "Water",
+    "evoName": "Plasmaree",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 2,
+    "pa": 1,
+    "pd": 4,
+    "ea": 2,
+    "ed": 5,
+    "available": "spoiler"
+  },
+  {
+    "id": 270,
+    "name": "Light Sparspek",
+    "type": "Lightning",
+    "evoName": "Light Glitterglint",
+    "rarity": "rare",
+    "hp": 3,
+    "sp": 5,
+    "pa": 1,
+    "pd": 1,
+    "ea": 4,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 271,
+    "name": "Light Wavesling",
+    "type": "Water-Wind",
+    "evoName": "Light Nessilisk",
+    "rarity": "rare",
+    "hp": 3,
+    "sp": 2,
+    "pa": 2,
+    "pd": 1,
+    "ea": 5,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 272,
+    "name": "Light Jack",
+    "type": "Wind",
+    "evoName": "Light Tuzee",
+    "rarity": "rare",
+    "hp": 3,
+    "sp": 1,
+    "pa": 2,
+    "pd": 4,
+    "ea": 2,
+    "ed": 4,
+    "available": "spoiler"
+  },
+  {
+    "id": 273,
+    "name": "Light Flurfy",
+    "type": "Nature",
+    "evoName": "Light Kvetch",
+    "rarity": "rare",
+    "hp": 4,
+    "sp": 2,
+    "pa": 2,
+    "pd": 2,
+    "ea": 3,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 274,
+    "name": "Light Slithero",
+    "type": "Fire",
+    "evoName": "Light Incineron",
+    "rarity": "rare",
+    "hp": 1,
+    "sp": 4,
+    "pa": 4,
+    "pd": 3,
+    "ea": 2,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 275,
+    "name": "Light Squibee",
+    "type": "Water",
+    "evoName": "Light Krakenhook",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 3,
+    "pa": 3,
+    "pd": 3,
+    "ea": 3,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 276,
+    "name": "Light Digsy",
+    "type": "Fire-Earth",
+    "evoName": "Light Excavior",
+    "rarity": "epic",
+    "hp": 4,
+    "sp": 1,
+    "pa": 3,
+    "pd": 3,
+    "ea": 3,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 277,
+    "name": "Light Twiggum",
+    "type": "Nature",
+    "evoName": "Light Willoak",
+    "rarity": "exotic",
+    "hp": 4,
+    "sp": 2,
+    "pa": 2,
+    "pd": 3,
+    "ea": 4,
+    "ed": 3,
+    "available": true
+  },
+  {
+    "id": 278,
+    "name": "Light Ignios",
+    "type": "Fire-Lightning",
+    "evoName": "Light Preliator",
+    "rarity": "legendary",
+    "hp": 3,
+    "sp": 5,
+    "pa": 2,
+    "pd": 2,
+    "ea": 5,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 279,
+    "name": "Light Mumbah",
+    "type": "Earth",
+    "evoName": "Light Sphynxus",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 4,
+    "pa": 2,
+    "pd": 2,
+    "ea": 3,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 280,
+    "name": "Sol",
+    "type": "Fire",
+    "evoName": "Cithreus",
+    "rarity": "rare",
+    "hp": 3,
+    "sp": 3,
+    "pa": 2,
+    "pd": 3,
+    "ea": 2,
+    "ed": 3,
+    "available": "spoiler"
+  },
+  {
+    "id": 281,
+    "name": "Dreamger",
+    "type": "Wind",
+    "evoName": "Traumauler",
+    "rarity": "rare",
+    "hp": 2,
+    "sp": 5,
+    "pa": 4,
+    "pd": 2,
+    "ea": 1,
+    "ed": 2,
+    "available": "spoiler"
+  },
+  {
+    "id": 282,
+    "name": "Light Weevern",
+    "type": "Nature-Earth",
+    "evoName": "Light Serpasoar",
+    "rarity": "epic",
+    "hp": 2,
+    "sp": 5,
+    "pa": 2,
+    "pd": 2,
+    "ea": 4,
+    "ed": 2,
+    "available": "spoiler"
   }
 ]

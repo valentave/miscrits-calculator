@@ -56,6 +56,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.5.0 - August 3, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added a lot of new miscrits from Sunfall Shores (no-spoiler)</li>
+                            <li>Fixed some miscrits stats bug</li>
+                            <li>Changed image for &quot;no spoilers&quot; in the miscrits list</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.4.8 - July 27, 2024</h2>
                         <hr />
                         <ul>
