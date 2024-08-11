@@ -3767,7 +3767,7 @@
   },
   {
     "id": 270,
-    "name": "Light Sparspek",
+    "name": "Light Sparkspeck",
     "type": "Lightning",
     "evoName": "Light Glitterglint",
     "rarity": "rare",
@@ -3777,7 +3777,7 @@
     "pd": 1,
     "ea": 4,
     "ed": 2,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 271,
@@ -3791,7 +3791,7 @@
     "pd": 1,
     "ea": 5,
     "ed": 3,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 272,
@@ -3805,7 +3805,7 @@
     "pd": 4,
     "ea": 2,
     "ed": 4,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 273,
