@@ -3763,7 +3763,7 @@
     "pd": 4,
     "ea": 2,
     "ed": 5,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 270,
@@ -3917,7 +3917,7 @@
     "pd": 3,
     "ea": 2,
     "ed": 3,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 281,
@@ -3931,7 +3931,7 @@
     "pd": 2,
     "ea": 1,
     "ed": 2,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 282,
