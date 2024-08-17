@@ -11,6 +11,11 @@
     color: #003D48;
 }
 
+.filters input {
+    padding: 0 0 0 5px;
+    font-weight: 900;
+}
+
 .filters__types-container {
     display: flex;
     flex-direction: row;
@@ -52,16 +57,63 @@
 }
 
 .filters__rarity > button {
-    background: #9AB0C8;
     border: none;
-    border-top: 1px solid #6B89A1;
-    border-bottom: 1px solid #E7ECF4;
     border-radius: 3px;
-    color: #395362;
     font-weight: bolder;
     transition: 0.2s;
+    background: #9AB0C8;
+    border-top: 1px solid #6B89A1;
+    border-bottom: 1px solid #E7ECF4;
+    color: #395362;
+}
+
+.filters__rarity > .null {
+    background: #9AB0C8;
+    border-top: 1px solid #6B89A1;
+    border-bottom: 1px solid #E7ECF4;
+    color: #395362;
+}
+
+.filters__rarity > .common:not(.filter-not-selected) {
+    background: #ffffff;
+    border-top: 1px solid #7c7c7c;
+    border-bottom: 1px solid #b8b8b8;
+    color: #000000;
+}
+
+
+.filters__rarity > .rare:not(.filter-not-selected) {
+    background: blue;
+    border-top: 1px solid darkblue;
+    border-bottom: 1px solid lightblue;
+    color: lightblue;
+}
+
+.filters__rarity > .epic:not(.filter-not-selected) {
+    background: lime;
+    border-top: 1px solid darkgreen;
+    border-bottom: 1px solid lightgreen;
+    color: darkgreen;
+}
+
+.filters__rarity > .exotic:not(.filter-not-selected) {
+    background: blueviolet;
+    border-top: 1px solid darkviolet;
+    border-bottom: 1px solid pink;
+    color: pink;
+}
+
+.filters__rarity > .legendary:not(.filter-not-selected) {
+    background: orange;
+    border-top: 1px solid brown;
+    border-bottom: 1px solid lightsalmon;
+    color: brown;
 }
 
 .filters__rarity > button:hover {
     background: #ccdbf3;
+}
+
+.filter-not-selected {
+    filter:saturate(0)
 }

@@ -3934,16 +3934,16 @@
     "available": true
   },
   {
-    "id": 282,
-    "name": "Light Weevern",
-    "type": "Nature-Earth",
-    "evoName": "Light Serpasoar",
-    "rarity": "epic",
-    "hp": 2,
+    "id": 283,
+    "name": "Blighted Flowerpiller",
+    "type": "Nature",
+    "evoName": "Blighted Fairyblossom",
+    "rarity": "legendary",
+    "hp": 3,
     "sp": 5,
-    "pa": 2,
+    "pa": 3,
     "pd": 2,
-    "ea": 4,
+    "ea": 5,
     "ed": 2,
     "available": "spoiler"
   }

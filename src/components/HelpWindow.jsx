@@ -27,8 +27,8 @@ export default function HelpWindow({setHelpActive}) {
                 {help &&
                 <div className="help-container">
                     <ul>
-                        <li>Hi! Here you can simulate or calculate what your miscrit might look like when it reaches level 30.</li>
-                        <li>You have the possibility to filter the list of miscrits from the filter menu, you can combine the type and rarity filters at the same time.</li>
+                        <li>Hi! Here you can simulate or calculate what your miscrit might look like when it reaches level 35.</li>
+                        <li>You have the possibility to filter the list of miscrits from the filter menu, you can combine all of them at the same time.</li>
                         <li>In the options menu you can: <br/>
                             <ul>
                                 <li>Activate or deactivate both platinum training and bonuses points.</li>
@@ -42,11 +42,11 @@ export default function HelpWindow({setHelpActive}) {
                                 <li>Click on each icon or statistic to change its genetic to white, green or red.</li>
                             </ul>
                         </li>
-                        <li>In the game, a level 30 miscrit already has 87 bonus points automatically and randomly assigned, but here they are disabled by default.</li>
+                        <li>In the game, a level 35 miscrit already has 102 bonus points automatically and randomly assigned, but here they are disabled by default.</li>
                         <li>You can edit the bonus distribution by clicking in the &quot;Edit bonus&quot; button. <br />
                             <ul>
                                 <li>You can turn off or on these bonuses just by setting it to 0 or higher.</li>
-                                <li>For level bonuses you must set the total points in 87 if you want to edit these bonuses.</li>
+                                <li>For level bonuses you must set the total points in 102 if you want to edit these bonuses.</li>
                                 <li>If you do a &quot;rebonus&quot; or turn off and on some of the bonus, you will lose your edited distribution.</li>
                             </ul>
                         </li>
@@ -55,6 +55,16 @@ export default function HelpWindow({setHelpActive}) {
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
+                    <div className="changelog-version">
+                        <h2>v0.5.3 - August 17, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>The app now calculates stats at level 35</li>
+                            <li>You can now filter the list by name</li>
+                            <li>You can now visually distinguish the applied filters</li>
+                            <li>Added Blighted Flowerpiller</li>
+                        </ul>
+                    </div>
                     <div className="changelog-version">
                         <h2>v0.5.0 - August 3, 2024</h2>
                         <hr />

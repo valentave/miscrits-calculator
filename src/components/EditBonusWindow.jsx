@@ -3,6 +3,8 @@ import { useState } from "react"
 import "../styles/EditBonusWindow.css"
 
 export default function EditBonuswindow({setEditActive, bonus, platinum, changePlatinum, changeBonus}) {
+    const MAX_BONUS = 102
+    const MAX_PLATINUM = 34
     const [alertActive, setAlertActive] = useState(false)
     const [newBonus, setNewBonus] = useState({
         hp: bonus.hp,
@@ -27,7 +29,7 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
         let copyBonus = {...newBonus}
         copyBonus[stat] = amount
         let sum = copyBonus.hp + copyBonus.sp + copyBonus.ea + copyBonus.pa + copyBonus.ed + copyBonus.pd 
-        if (sum <= 87 && sum >= 0 && amount <= 29) {
+        if (sum <= MAX_BONUS && sum >= 0 && amount <= MAX_PLATINUM) {
             setTotalBonus(sum)
             setNewBonus({...copyBonus})
         } else {
@@ -38,7 +40,7 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
         let copyBonus = {...newPlatinum}
         copyBonus[stat] = amount
         let sum = copyBonus.hp + copyBonus.sp + copyBonus.ea + copyBonus.pa + copyBonus.ed + copyBonus.pd 
-        if (sum <= 29 && sum >= 0 && amount <= 29) {
+        if (sum <= MAX_PLATINUM && sum >= 0 && amount <= MAX_PLATINUM) {
             setTotalPlatinum(sum)
             setNewPlatinum({...copyBonus})
         } else {
@@ -47,7 +49,7 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
     }
 
     function confirmChanges() {
-        if(totalBonus == 87 || totalBonus == 0) {
+        if(totalBonus == MAX_BONUS || totalBonus == 0) {
             changePlatinum([newPlatinum.hp, newPlatinum.sp, newPlatinum.ea, newPlatinum.pa, newPlatinum.ed, newPlatinum.pd])
             changeBonus([newBonus.hp, newBonus.sp, newBonus.ea, newBonus.pa, newBonus.ed, newBonus.pd])
             setEditActive(false)
@@ -63,7 +65,7 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
                     <div className="help-window alert-window">
                         <button className="close-help-button" onClick={() => setAlertActive(false)}>X</button>
                         <h2>Warning!</h2>
-                        <h4>You can&apos;t set less than 87 points in level bonuses.</h4>
+                        <h4>You can&apos;t set less than {MAX_BONUS} points in level bonuses.</h4>
                     </div>
                 </div>
             )}

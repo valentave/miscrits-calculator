@@ -10,9 +10,12 @@ import HelpWindow from "./components/HelpWindow"
 import EditBonuswindow from "./components/EditBonusWindow"
 
 function App() {
+  const MAX_BONUS = 102
+  const MAX_PLATINUM = 34
   const [selectedMiscrit, setSelectedMiscrit] = useState(false)
   const [filterType, setFilterType] = useState("none")
   const [filterRarity, setFilterRarity] = useState("none")
+  const [filterName, setFilterName] = useState("")
   const [filteredList, setFilteredList] = useState(LIST)
   const [areBonusOn, setAreBonusOn] = useState(false)
   const [arePlatinumOn, setArePlatinumOn] = useState(false)
@@ -56,8 +59,11 @@ function App() {
       if (filterType == "none") return n
       if (n.type.includes(filterType)) return n
       return false
+    }).filter(n => {
+      if (n.name.toLowerCase().includes(filterName.toLowerCase())) return n
+      return false
     }))
-  }, [filterType, filterRarity])
+  }, [filterType, filterRarity, filterName])
 
   function randomizeStats(bonus) {
     let points = [0, ...Array.from({length: 5}, () => Math.floor(Math.random() * (bonus + 1))), bonus];
@@ -89,7 +95,7 @@ function App() {
     if (arePlatinumOn) {
       setArePlatinumOn(false)
     } else {
-      let distribution = randomizeStats(29);
+      let distribution = randomizeStats(MAX_PLATINUM);
       setArePlatinumOn(true)
       setPlatinum({
         hp: distribution[0],
@@ -124,8 +130,8 @@ function App() {
     } else {
       let distribution;
       do {
-        distribution = randomizeStats(87)
-      } while(distribution.some(value => value > 29));
+        distribution = randomizeStats(MAX_BONUS)
+      } while(distribution.some(value => value > MAX_PLATINUM));
       setAreBonusOn(true)
       setBonus({
         hp: distribution[0],
@@ -140,7 +146,7 @@ function App() {
 
   function rebonus() {
     if (arePlatinumOn) {
-      let distribution = randomizeStats(29)
+      let distribution = randomizeStats(MAX_PLATINUM)
       setPlatinum({
         hp: distribution[0],
         sp: distribution[1],
@@ -153,8 +159,8 @@ function App() {
     if (areBonusOn) {
       let distribution
       do {
-        distribution = randomizeStats(87)
-      } while(distribution.some(value => value > 29));
+        distribution = randomizeStats(MAX_BONUS)
+      } while(distribution.some(value => value > MAX_PLATINUM));
       setBonus({
         hp: distribution[0],
         sp: distribution[1],
@@ -199,7 +205,7 @@ function App() {
       <EditBonuswindow setEditActive={setEditActive} bonus={bonus} platinum={platinum} changePlatinum={handlePlatinum} changeBonus={handleBonus}/>}
       <div className="calculator-container">
         <button className="help-button" onClick={() => setHelpActive(true)}>?</button>
-        <MiscritsFilter setFilterType={setFilterType} setFilterRarity={setFilterRarity}/>
+        <MiscritsFilter setFilterType={setFilterType} setFilterRarity={setFilterRarity} setFilterName={setFilterName}/>
         <MiscritsList LIST={filteredList} selected={selectedMiscrit} setSelected={handleSelected}/>
         <div className="miscrit-name-container">
           <h1 className="miscrit-name">{selectedMiscrit?.evoName?.toUpperCase()}</h1>
