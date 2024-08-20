@@ -28,6 +28,11 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    scale: 1;
+    transition: scale .3s ease-in-out;
+    @starting-style {
+        scale:0;
+    }
 }
 
 .edit-window table {

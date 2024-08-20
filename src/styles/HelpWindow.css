@@ -20,6 +20,10 @@
     overflow: auto;
     padding: 10px 20px;
     position: relative;
+    transition: scale .3s ease-in-out;
+    @starting-style {
+        scale:0;
+    }
 }
 
 .help-window ul {
