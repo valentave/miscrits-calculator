@@ -865,7 +865,7 @@
     "pd": 2,
     "ea": 4,
     "ed": 4,
-    "available": false
+    "available": true
   },
   {
     "id": 63,
@@ -3946,5 +3946,19 @@
     "ea": 5,
     "ed": 2,
     "available": "spoiler"
+  },
+  {
+    "id": 284,
+    "name": "Opigum",
+    "type": "Earth",
+    "evoName": "Poggle",
+    "rarity": "rare",
+    "hp": 3,
+    "sp": 2,
+    "pa": 2,
+    "pd": 4,
+    "ea": 1,
+    "ed": 4,
+    "available": true
   }
 ]
