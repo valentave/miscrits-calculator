@@ -56,6 +56,14 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.5.4 - August 24, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Opigum</li>
+                            <li>Made Pollifog available</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.5.3 - August 17, 2024</h2>
                         <hr />
                         <ul>
