@@ -3651,7 +3651,7 @@
     "pd": 3,
     "ea": 5,
     "ed": 2,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 262,
@@ -3721,7 +3721,7 @@
     "pd": 2,
     "ea": 5,
     "ed": 2,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 267,
@@ -3930,6 +3930,20 @@
     "pa": 4,
     "pd": 2,
     "ea": 1,
+    "ed": 2,
+    "available": true
+  },
+  {
+    "id": 282,
+    "name": "Light Weevern",
+    "type": "Nature-Earth",
+    "evoName": "Light Serpasoar",
+    "rarity": "epic",
+    "hp": 2,
+    "sp": 5,
+    "pa": 2,
+    "pd": 2,
+    "ea": 4,
     "ed": 2,
     "available": true
   },
