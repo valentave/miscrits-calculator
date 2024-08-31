@@ -6,7 +6,7 @@ export default function Stats({miscrit, areBonusOn, bonus, arePlatinumOn, platin
     let OTHER_STATS_GREEN = [60,72,83,95,107]
     let HP_STATS_WHITE = [129,143,157,171,185]
     let OTHER_STATS_WHITE = [51,63,75,87,99]
-    let HP_STATS_RED = [119,133,147,161,175]
+    let HP_STATS_RED = [119,133,147,160,174]
     let OTHER_STATS_RED = [42,54,66,77,89]
     
     return(
