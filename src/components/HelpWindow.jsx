@@ -56,6 +56,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.5.5 - September 1, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats buff to Lavarilla, Quirk, Shellbee, Snortus, Equestrion, Nessy, Kiloray, Light Squibee, Dark Lumera, Echino, Hippoke, Arigato</li>
+                            <li>Applied stats nerf to Light Frostmite, Gog, Pillblaze, Light Slithero, Podo, Blazebit, Dark Kiloray</li>
+                            <li>Applied stats rebalance to Flue, Hotfoot, Snatcher, Cubsprout, Hawkai, Leggy, Aria, Mumbah, Dark Nessy, Dark Spinnerette, Dark Steamguin, Narlope, Light Nibbles, Orcatide</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.5.4 - August 24, 2024</h2>
                         <hr />
                         <ul>
