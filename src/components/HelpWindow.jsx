@@ -60,6 +60,7 @@ export default function HelpWindow({setHelpActive}) {
                         <hr />
                         <ul>
                             <li>Added Lavazard</li>
+                            <li>Checked base stats of every miscrit and fixed a lot of them</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
