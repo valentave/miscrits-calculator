@@ -3665,7 +3665,7 @@
     "pd": 2,
     "ea": 5,
     "ed": 2,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 263,
@@ -3679,7 +3679,7 @@
     "pd": 3,
     "ea": 3,
     "ed": 3,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 264,
@@ -3889,7 +3889,7 @@
     "pd": 2,
     "ea": 5,
     "ed": 3,
-    "available": "spoiler"
+    "available": true
   },
   {
     "id": 279,
@@ -3959,7 +3959,7 @@
     "pd": 2,
     "ea": 5,
     "ed": 2,
-    "available": "spoiler"
+    "available": true 
   },
   {
     "id": 284,
@@ -3973,6 +3973,20 @@
     "pd": 4,
     "ea": 1,
     "ed": 4,
+    "available": true
+  },
+  {
+    "id": 285,
+    "name": "Lavazard",
+    "type": "Fire",
+    "evoName": "Flamydosaurus",
+    "rarity": "epic",
+    "hp": 1,
+    "sp": 2,
+    "pa": 3,
+    "pd": 3,
+    "ea": 1,
+    "ed": 5,
     "available": true
   }
 ]
