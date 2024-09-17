@@ -61,6 +61,7 @@ export default function HelpWindow({setHelpActive}) {
                         <ul>
                             <li>Added Gemix</li>
                             <li>Fixed some typing bugs</li>
+                            <li>Fixed some evo names</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
