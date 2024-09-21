@@ -60,6 +60,7 @@ export default function HelpWindow({setHelpActive}) {
                         <hr />
                         <ul>
                             <li>Added Dark Vexie and Light Hawkai</li>
+                            <li>Images optimized by 50%</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
