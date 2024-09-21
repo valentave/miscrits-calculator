@@ -4002,5 +4002,33 @@
         "ea": 4,
         "ed": 3,
         "available": true
+    },
+    {
+        "id": 287,
+        "name": "Dark Vexie",
+        "type": "Earth",
+        "evoName": "Dark Alionyx",
+        "rarity": "rare",
+        "hp": 2,
+        "sp": 3,
+        "pa": 2,
+        "pd": 4,
+        "ea": 3,
+        "ed": 2,
+        "available": "spoiler"
+    },
+    {
+        "id": 288,
+        "name": "Light Hawkai",
+        "type": "Wind",
+        "evoName": "Light Hawkogan",
+        "rarity": "rare",
+        "hp": 2,
+        "sp": 3,
+        "pa": 3,
+        "pd": 2,
+        "ea": 4,
+        "ed": 2,
+        "available": "spoiler"
     }
 ]

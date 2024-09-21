@@ -56,6 +56,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.5.8 - September 21, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Dark Vexie and Light Hawkai</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.5.7.1 - September 17, 2024</h2>
                         <hr />
                         <ul>
