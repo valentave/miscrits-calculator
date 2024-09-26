@@ -27,7 +27,7 @@ export default function HelpWindow({setHelpActive}) {
                 {help &&
                 <div className="help-container">
                     <ul>
-                        <li>Hi! Here you can simulate or calculate what your miscrit might look like when it reaches level 35.</li>
+                        <li>Hi! Here you can simulate or calculate how your miscrit will look at any level from 1 to 35. By default, statistics are shown at level 35.</li>
                         <li>You have the possibility to filter the list of miscrits from the filter menu, you can combine all of them at the same time.</li>
                         <li>In the options menu you can: <br/>
                             <ul>
@@ -40,9 +40,10 @@ export default function HelpWindow({setHelpActive}) {
                             <ul>
                                 <li>Hover over the icons or statistics to see the bonuses applied to each one.</li>
                                 <li>Click on each icon or statistic to change its genetic to white, green or red.</li>
+                                <li>Change the level of the miscrit.</li>
                             </ul>
                         </li>
-                        <li>In the game, a level 35 miscrit already has 102 bonus points automatically and randomly assigned, but here they are disabled by default.</li>
+                        <li>In the game, a miscrit gain 3 bonus points each level, but here they are disabled by default.</li>
                         <li>You can edit the bonus distribution by clicking in the &quot;Edit bonus&quot; button. <br />
                             <ul>
                                 <li>You can turn off or on these bonuses just by setting it to 0 or higher.</li>
@@ -55,6 +56,14 @@ export default function HelpWindow({setHelpActive}) {
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
+                    <div className="changelog-version">
+                        <h2>v0.5.8.5 - September 26, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>You can now change the miscrit level</li>
+                            <li>Level and platinum bonuses are now calculated for all 35 levels, this means that if you activate the bonuses and change the level of the miscrit the bonuses will remain unless you do a rebonus. Does not apply if you manually edited the bonuses</li>
+                        </ul>
+                    </div>
                     <div className="changelog-version">
                         <h2>v0.5.8 - September 21, 2024</h2>
                         <hr />
