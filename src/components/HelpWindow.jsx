@@ -57,14 +57,6 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
-                        <h2>v0.5.8.5 - September 26, 2024</h2>
-                        <hr />
-                        <ul>
-                            <li>You can now change the miscrit level</li>
-                            <li>Level and platinum bonuses are now calculated for all 35 levels, this means that if you activate the bonuses and change the level of the miscrit the bonuses will remain unless you do a rebonus. Does not apply if you manually edited the bonuses</li>
-                        </ul>
-                    </div>
-                    <div className="changelog-version">
                         <h2>v0.6.1 - October 19, 2024</h2>
                         <hr />
                         <ul>
@@ -72,6 +64,14 @@ export default function HelpWindow({setHelpActive}) {
                             <li>Applied stats buff to Dark Sparkitten, Foil Kiloray, Lavazard</li>
                             <li>Applied stats rebalance to Ursiwave, Snorkels, Fennie, Fubby</li>
                             <li>Applied stats nerf to Treemur, Dark Owlie, Flaring</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
+                        <h2>v0.5.8.5 - September 26, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>You can now change the miscrit level</li>
+                            <li>Level and platinum bonuses are now calculated for all 35 levels, this means that if you activate the bonuses and change the level of the miscrit the bonuses will remain unless you do a rebonus. Does not apply if you manually edited the bonuses</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
