@@ -65,6 +65,16 @@ export default function HelpWindow({setHelpActive}) {
                         </ul>
                     </div>
                     <div className="changelog-version">
+                        <h2>v0.6.1 - October 19, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Light Statikat</li>
+                            <li>Applied stats buff to Dark Sparkitten, Foil Kiloray, Lavazard</li>
+                            <li>Applied stats rebalance to Ursiwave, Snorkels, Fennie, Fubby</li>
+                            <li>Applied stats nerf to Treemur, Dark Owlie, Flaring</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.5.8 - September 21, 2024</h2>
                         <hr />
                         <ul>

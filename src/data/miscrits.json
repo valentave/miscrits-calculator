@@ -538,11 +538,11 @@
         "evoName": "Ripcurlio",
         "rarity": "epic",
         "hp": 2,
-        "sp": 4,
-        "pa": 4,
-        "pd": 1,
+        "sp": 3,
+        "pa": 3,
+        "pd": 2,
         "ea": 4,
-        "ed": 2,
+        "ed": 3,
         "available": true
     },
     {
@@ -1590,7 +1590,7 @@
         "hp": 4,
         "sp": 2,
         "pa": 1,
-        "pd": 3,
+        "pd": 2,
         "ea": 4,
         "ed": 3,
         "available": true
@@ -2219,9 +2219,9 @@
         "rarity": "rare",
         "hp": 2,
         "sp": 5,
-        "pa": 2,
+        "pa": 1,
         "pd": 2,
-        "ea": 3,
+        "ea": 4,
         "ed": 2,
         "available": true
     },
@@ -2289,10 +2289,10 @@
         "rarity": "epic",
         "hp": 2,
         "sp": 2,
-        "pa": 4,
+        "pa": 3,
         "pd": 3,
         "ea": 4,
-        "ed": 2,
+        "ed": 3,
         "available": true
     },
     {
@@ -2427,7 +2427,7 @@
         "type": "Fire",
         "evoName": "Dark Cheetorch",
         "rarity": "rare",
-        "hp": 1,
+        "hp": 2,
         "sp": 4,
         "pa": 4,
         "pd": 1,
@@ -2498,11 +2498,11 @@
         "evoName": "Dark Hootray",
         "rarity": "rare",
         "hp": 3,
-        "sp": 4,
+        "sp": 3,
         "pa": 1,
         "pd": 3,
         "ea": 4,
-        "ed": 3,
+        "ed": 2,
         "available": true
     },
     {
@@ -2821,7 +2821,7 @@
         "rarity": "exotic",
         "hp": 4,
         "sp": 3,
-        "pa": 2,
+        "pa": 3,
         "pd": 2,
         "ea": 4,
         "ed": 2,
@@ -3296,11 +3296,11 @@
         "evoName": "Wachter",
         "rarity": "exotic",
         "hp": 3,
-        "sp": 5,
+        "sp": 4,
         "pa": 5,
         "pd": 3,
         "ea": 1,
-        "ed": 1,
+        "ed": 2,
         "available": true
     },
     {
@@ -3505,9 +3505,9 @@
         "type": "Fire",
         "evoName": "Lapinfire",
         "rarity": "epic",
-        "hp": 2,
+        "hp": 3,
         "sp": 5,
-        "pa": 4,
+        "pa": 1,
         "pd": 2,
         "ea": 4,
         "ed": 2,
@@ -3981,11 +3981,11 @@
         "type": "Fire",
         "evoName": "Flamydosaurus",
         "rarity": "epic",
-        "hp": 1,
+        "hp": 2,
         "sp": 2,
         "pa": 3,
         "pd": 3,
-        "ea": 1,
+        "ea": 2,
         "ed": 5,
         "available": true
     },
@@ -4015,7 +4015,7 @@
         "pd": 4,
         "ea": 3,
         "ed": 2,
-        "available": "spoiler"
+        "available": true
     },
     {
         "id": 288,
@@ -4029,6 +4029,20 @@
         "pd": 2,
         "ea": 4,
         "ed": 2,
-        "available": "spoiler"
+        "available": true
+    },
+    {
+        "id": 289,
+        "name": "Light Statikat",
+        "type": "Fire-Lightning",
+        "evoName": "Light Panthundra",
+        "rarity": "exotic",
+        "hp": 5,
+        "sp": 2,
+        "pa": 2,
+        "pd": 3,
+        "ea": 3,
+        "ed": 3,
+        "available": true
     }
 ]
