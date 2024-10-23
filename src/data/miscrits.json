@@ -4051,12 +4051,12 @@
         "type": "Wind",
         "evoName": "Michelangelus",
         "rarity": "legendary",
-        "hp": 4,
-        "sp": 3,
-        "pa": 3,
+        "hp": 3,
+        "sp": 2,
+        "pa": 4,
         "pd": 4,
         "ea": 4,
-        "ed": 2,
+        "ed": 3,
         "available": "spoiler"
     }
 ]
