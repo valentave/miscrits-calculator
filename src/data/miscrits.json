@@ -4044,5 +4044,19 @@
         "ea": 3,
         "ed": 3,
         "available": true
+    },
+    {
+        "id": 290,
+        "name": "Da Windy",
+        "type": "Wind",
+        "evoName": "Michelangelus",
+        "rarity": "legendary",
+        "hp": 4,
+        "sp": 3,
+        "pa": 3,
+        "pd": 4,
+        "ea": 4,
+        "ed": 2,
+        "available": "spoiler"
     }
 ]
