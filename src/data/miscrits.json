@@ -4074,17 +4074,17 @@
         "available": true
     },
     {
-        "id": 292,
-        "name": "Patchkin",
-        "type": "Nature",
-        "evoName": "Reaping Gourd",
-        "rarity": "exotic",
-        "hp": 4,
-        "sp": 1,
-        "pa": 3,
-        "pd": 2,
-        "ea": 4,
-        "ed": 4,
+        "id": 293,
+        "name": "Dark Jellyshock",
+        "type": "Lightning",
+        "evoName": "Dark Medustung",
+        "rarity": "epic",
+        "hp": 1,
+        "sp": 4,
+        "pa": 4,
+        "pd": 3,
+        "ea": 3,
+        "ed": 2,
         "available": true
     }
 ]
