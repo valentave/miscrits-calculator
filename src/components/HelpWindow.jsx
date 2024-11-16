@@ -61,6 +61,7 @@ export default function HelpWindow({setHelpActive}) {
                         <hr />
                         <ul>
                             <li>Added Light Snorkels</li>
+                            <li>Apply Lavarilla stats rebalance</li>
                         </ul>
                     </div>
                     <div className="changelog-version">
