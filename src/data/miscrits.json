@@ -4086,5 +4086,19 @@
         "ea": 3,
         "ed": 2,
         "available": true
+    },
+    {
+        "id": 294,
+        "name": "Light Snorkels",
+        "type": "Water-Wind",
+        "evoName": "Light Leviafin",
+        "rarity": "exotic",
+        "hp": 1,
+        "sp": 5,
+        "pa": 1,
+        "pd": 5,
+        "ea": 3,
+        "ed": 3,
+        "available": true
     }
 ]
