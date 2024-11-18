@@ -56,7 +56,14 @@ export default function HelpWindow({setHelpActive}) {
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
-                <div className="changelog-version">
+                    <div className="changelog-version">
+                        <h2>v0.6.7 - November 17, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied Dark Elefauna and Dark Breezycheeks stats rebalace</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.6.6 - November 16, 2024</h2>
                         <hr />
                         <ul>

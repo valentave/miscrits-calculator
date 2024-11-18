@@ -2637,13 +2637,13 @@
         "type": "Nature",
         "evoName": "Dark Grastodon",
         "rarity": "rare",
-        "hp": 2,
+        "hp": 3,
         "sp": 2,
-        "pa": 3,
+        "pa": 2,
         "pd": 3,
-        "ea": 5,
-        "ed": 1,
-        "available": false
+        "ea": 3,
+        "ed": 4,
+        "available": true
     },
     {
         "id": 190,
@@ -2721,13 +2721,13 @@
         "type": "Wind",
         "evoName": "Dark Glidengale",
         "rarity": "rare",
-        "hp": 1,
+        "hp": 3,
         "sp": 5,
-        "pa": 3,
+        "pa": 1,
         "pd": 2,
         "ea": 3,
         "ed": 2,
-        "available": false
+        "available": true
     },
     {
         "id": 196,
