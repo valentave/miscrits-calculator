@@ -57,6 +57,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.6.8 - November 24, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats rebalance to: Lavarilla, Pamboo, Rockodile, Boneshee, Felis, Octavio, Hotdog, Echino, Ignios, Winnebeargo, Foil Waddles, Dark Shellbee, Dark Squibee, Dark Aria, Dark Lavarilla, Dark Flutterpat, Hoopty, Lil Bubs, Dark Tongutail and Freedom</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.6.7 - November 17, 2024</h2>
                         <hr />
                         <ul>
