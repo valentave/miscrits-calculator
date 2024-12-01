@@ -57,6 +57,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.6.9 - December 1, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Foil Croaky</li>
+                            <li>Applied stats rebalance to: Nessy, Eggy, Foil Thundercracker</li>
+                            <li>Fixed some names</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.6.8 - November 24, 2024</h2>
                         <hr />
                         <ul>
