@@ -57,6 +57,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.7.0 - December 8, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats rebalance to: Arigato, Dark Elefauna, Elefauna, Flintly, Foil Kiloray and Light Flue</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.6.9 - December 1, 2024</h2>
                         <hr />
                         <ul>
