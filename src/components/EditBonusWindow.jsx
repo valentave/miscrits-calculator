@@ -26,15 +26,17 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
     const [totalPlatinum, setTotalPlatinum] = useState(platinum.hp + platinum.sp + platinum.ea + platinum.pa + platinum.ed + platinum.pd)
     
     function handleBonus(input, stat, amount) {
+        let handledStat = isNaN(amount) ? 0 : amount
         let copyBonus = {...newBonus}
-        copyBonus[stat] = amount
+        copyBonus[stat] = handledStat
         let sum = copyBonus.hp + copyBonus.sp + copyBonus.ea + copyBonus.pa + copyBonus.ed + copyBonus.pd 
         setTotalBonus(sum)
         setNewBonus({...copyBonus})
     }
     function handlePlatinum(input, stat, amount) {
+        let handledStat = isNaN(amount) ? 0 : amount
         let copyBonus = {...newPlatinum}
-        copyBonus[stat] = amount
+        copyBonus[stat] = handledStat
         let sum = copyBonus.hp + copyBonus.sp + copyBonus.ea + copyBonus.pa + copyBonus.ed + copyBonus.pd 
         setTotalPlatinum(sum)
         setNewPlatinum({...copyBonus})
@@ -78,12 +80,12 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
                     </thead>
                     <tbody>
                         <tr>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-hp" id="input-bonus-hp" defaultValue={bonus.hp} onChange={(input) => handleBonus(input, "hp", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-sp" id="input-bonus-sp" defaultValue={bonus.sp} onChange={(input) => handleBonus(input, "sp", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-ea" id="input-bonus-ea" defaultValue={bonus.ea} onChange={(input) => handleBonus(input, "ea", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-pa" id="input-bonus-pa" defaultValue={bonus.pa} onChange={(input) => handleBonus(input, "pa", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-ed" id="input-bonus-ed" defaultValue={bonus.ed} onChange={(input) => handleBonus(input, "ed", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-pd" id="input-bonus-pd" defaultValue={bonus.pd} onChange={(input) => handleBonus(input, "pd", parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-hp" id="input-bonus-hp" defaultValue={bonus.hp} onChange={(input) => handleBonus(input, "hp", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-sp" id="input-bonus-sp" defaultValue={bonus.sp} onChange={(input) => handleBonus(input, "sp", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-ea" id="input-bonus-ea" defaultValue={bonus.ea} onChange={(input) => handleBonus(input, "ea", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-pa" id="input-bonus-pa" defaultValue={bonus.pa} onChange={(input) => handleBonus(input, "pa", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-ed" id="input-bonus-ed" defaultValue={bonus.ed} onChange={(input) => handleBonus(input, "ed", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-bonus-pd" id="input-bonus-pd" defaultValue={bonus.pd} onChange={(input) => handleBonus(input, "pd", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
                             <td className={totalBonus > MAX_BONUS ? "red-text" : totalBonus == MAX_BONUS ? "yellow-text" : ""}>{totalBonus}</td>
                         </tr>
                     </tbody>
@@ -103,12 +105,12 @@ export default function EditBonuswindow({setEditActive, bonus, platinum, changeP
                     </thead>
                     <tbody>
                         <tr>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-hp" id="input-platinum-hp" defaultValue={platinum.hp} onChange={(input) => handlePlatinum(input, "hp", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-sp" id="input-platinum-sp" defaultValue={platinum.sp} onChange={(input) => handlePlatinum(input, "sp", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-ea" id="input-platinum-ea" defaultValue={platinum.ea} onChange={(input) => handlePlatinum(input, "ea", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-pa" id="input-platinum-pa" defaultValue={platinum.pa} onChange={(input) => handlePlatinum(input, "pa", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-ed" id="input-platinum-ed" defaultValue={platinum.ed} onChange={(input) => handlePlatinum(input, "ed", parseInt(input.target.value))}/></td>
-                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-pd" id="input-platinum-pd" defaultValue={platinum.pd} onChange={(input) => handlePlatinum(input, "pd", parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-hp" id="input-platinum-hp" defaultValue={platinum.hp} onChange={(input) => handlePlatinum(input, "hp", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-sp" id="input-platinum-sp" defaultValue={platinum.sp} onChange={(input) => handlePlatinum(input, "sp", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-ea" id="input-platinum-ea" defaultValue={platinum.ea} onChange={(input) => handlePlatinum(input, "ea", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-pa" id="input-platinum-pa" defaultValue={platinum.pa} onChange={(input) => handlePlatinum(input, "pa", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-ed" id="input-platinum-ed" defaultValue={platinum.ed} onChange={(input) => handlePlatinum(input, "ed", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
+                            <td><input min={0} max={34} className="input-bonus" type="number" name="input-platinum-pd" id="input-platinum-pd" defaultValue={platinum.pd} onChange={(input) => handlePlatinum(input, "pd", input.target.value == "" ? 0 : parseInt(input.target.value))}/></td>
                             <td className={totalPlatinum > MAX_PLATINUM ? "red-text" : totalPlatinum == MAX_PLATINUM ? "yellow-text" : ""}>{totalPlatinum}</td>
                         </tr>
                     </tbody>

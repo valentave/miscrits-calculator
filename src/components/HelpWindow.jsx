@@ -57,6 +57,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.70 - December 11, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Relics feature. Now you can add relics to simulate your miscrit.</li>
+                            <li>Restructured the version system to follow the game numbering.</li>
+                            <li>Fixed bug with empty bonuses.</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.7.0 - December 8, 2024</h2>
                         <hr />
                         <ul>

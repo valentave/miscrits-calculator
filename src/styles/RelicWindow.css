@@ -1,0 +1,39 @@
+.relic-window__relics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.relic-window__relics-container > button {
+    width: 20%;
+    min-height: 100%;
+    text-align: start;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: rgba(255,255,255,0.7);
+}
+
+.relic-filter-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.relic-filter-container > .not-selected {
+    width: 50px;
+    color: white;
+    border: 1px solid red;
+    background: rgba(255,100,100,0.7);
+    padding: 5px;
+}
+
+.relic-filter-container > .selected {
+    width: 50px;
+    color: white;
+    border: 1px solid green;
+    background: rgba(100,255,100,0.7);
+    padding: 5px;
+}

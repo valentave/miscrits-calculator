@@ -55,6 +55,31 @@
     filter: brightness(0);
 }
 
+.relics-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 20px;
+    z-index: 500;
+}
+
+.relics-container > button {
+    background: none;
+    border: none;
+}
+
+.relic-button {
+    position: relative;
+}
+
+.relic-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @keyframes fullMiscrit {
     0% {
         transform: scaleX(0.95) scaleY(1.05);

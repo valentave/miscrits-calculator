@@ -118,6 +118,14 @@ function App() {
     ed: "white",
     pd: "white"
   })
+  const [relicBonus, setRelicBonus] = useState({
+    "hp": 0,
+    "sp": 0,
+    "ea": 0,
+    "ed": 0,
+    "pa": 0,
+    "pd": 0
+  })
 
   function handleSelected(miscrit) {
     setSelectedMiscrit(miscrit)
@@ -326,6 +334,7 @@ function App() {
         {selectedMiscrit &&
         <Stats
           miscrit={selectedMiscrit} 
+          relicBonus={relicBonus}
           areBonusOn={areBonusOn} 
           bonus={bonus} 
           arePlatinumOn={arePlatinumOn} 
@@ -341,6 +350,7 @@ function App() {
           miscrit={selectedMiscrit} 
           areBonusOn={areBonusOn} 
           arePlatinumOn={arePlatinumOn} 
+          setRelicBonus={setRelicBonus}
           setHelpActive={setHelpActive}/>
         }
       </div>
