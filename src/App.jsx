@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import MiscritsList from "./components/MiscritsList"
 import MiscritsFilter from "./components/MiscritsFilter"
 import MiscritMain from "./components/MiscritMain"
-import LIST from "./data/miscrits.json"
+import LIST from "./data/miscritsList.json"
 import Options from "./components/Options"
 import Stats from "./components/Stats"
 import HelpWindow from "./components/HelpWindow"
@@ -20,83 +20,84 @@ function App() {
   const [helpActive, setHelpActive] = useState(false)
   const [editActive, setEditActive] = useState(false)
   const [level, setLevel] = useState(35)
+  const MAX_LEVEL = 35
   const [bonusList, setBonusList] = useState({
-    "1": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "2": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "3": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "4": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "5": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "6": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "7": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "8": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "9": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "10": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "11": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "12": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "13": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "14": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "15": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "16": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "17": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "18": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "19": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "20": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "21": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "22": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "23": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "24": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "25": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "26": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "27": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "28": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "29": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "30": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "31": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "32": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "33": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "34": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "35": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
+    "1": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "2": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "3": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "4": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "5": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "6": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "7": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "8": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "9": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "10": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "11": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "12": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "13": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "14": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "15": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "16": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "17": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "18": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "19": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "20": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "21": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "22": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "23": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "24": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "25": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "26": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "27": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "28": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "29": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "30": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "31": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "32": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "33": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "34": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "35": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
   })
   const [platinumList, setPlatinumList] = useState({
-    "1": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "2": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "3": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "4": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "5": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "6": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "7": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "8": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "9": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "10": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "11": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "12": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "13": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "14": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "15": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "16": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "17": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "18": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "19": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "20": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "21": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "22": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "23": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "24": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "25": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "26": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "27": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "28": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "29": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "30": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "31": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "32": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "33": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "34": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
-    "35": {hp:0, sp:0, ea:0, pa:0, ed:0, pd:0},
+    "1": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "2": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "3": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "4": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "5": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "6": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "7": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "8": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "9": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "10": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "11": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "12": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "13": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "14": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "15": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "16": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "17": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "18": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "19": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "20": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "21": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "22": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "23": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "24": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "25": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "26": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "27": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "28": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "29": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "30": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "31": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "32": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "33": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "34": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
+    "35": {hp:0, spd:0, ea:0, pa:0, ed:0, pd:0},
   })
   const [bonus, setBonus] = useState({
     hp: 0,
-    sp: 0,
+    spd: 0,
     ea: 0,
     pa: 0,
     ed: 0,
@@ -104,7 +105,7 @@ function App() {
   })
   const [platinum, setPlatinum] = useState({
     hp: 0,
-    sp: 0,
+    spd: 0,
     ea: 0,
     pa: 0,
     ed: 0,
@@ -112,7 +113,7 @@ function App() {
   })
   const [statsNature, setStatsNature] = useState({
     hp: "white",
-    sp: "white",
+    spd: "white",
     ea: "white",
     pa: "white",
     ed: "white",
@@ -120,7 +121,7 @@ function App() {
   })
   const [relicBonus, setRelicBonus] = useState({
     "hp": 0,
-    "sp": 0,
+    "spd": 0,
     "ea": 0,
     "ed": 0,
     "pa": 0,
@@ -165,7 +166,7 @@ function App() {
     if(list && list.length > 0) {
       setPlatinum({
         hp: list[0],
-        sp: list[1],
+        spd: list[1],
         ea: list[2],
         pa: list[3],
         ed: list[4],
@@ -182,23 +183,23 @@ function App() {
       if(arePlatinumOn) setArePlatinumOn(false)
       else {
         setArePlatinumOn(true)
-        if (platinum.hp + platinum.sp + platinum.ea + platinum.ed + platinum.pa + platinum.pd == 0) {
+        if (platinum.hp + platinum.spd + platinum.ea + platinum.ed + platinum.pa + platinum.pd == 0) {
           handlePlatinum()
         }
       } 
       return 1
     }
-    const platinumCopy = {...platinumList}
-    for (let i = 2; i <= 35; i++){
+    let platinumCopy = {...platinumList}
+    for (let i = 2; i <= MAX_LEVEL; i++){
       let distribution = randomizeStats(1);
-      platinumCopy[i] = {
+      platinumCopy = {...platinumCopy, [i]: {
         hp: platinumCopy[i-1].hp + distribution[0],
-        sp: platinumCopy[i-1].sp + distribution[1],
+        spd: platinumCopy[i-1].spd + distribution[1], 
         ea: platinumCopy[i-1].ea + distribution[2],
         pa: platinumCopy[i-1].pa + distribution[3],
         ed: platinumCopy[i-1].ed + distribution[4],
-        pd: platinumCopy[i-1].pd + distribution[5]
-      }
+        pd: platinumCopy[i-1].pd + distribution[5],
+      }}
     }
     setPlatinum({...platinumCopy[level]})
     setPlatinumList({...platinumCopy})
@@ -208,7 +209,7 @@ function App() {
     if(list && list.length > 0) {
       setBonus({
         hp: list[0],
-        sp: list[1],
+        spd: list[1],
         ea: list[2],
         pa: list[3],
         ed: list[4],
@@ -225,23 +226,23 @@ function App() {
       if(areBonusOn) setAreBonusOn(false)
       else {
         setAreBonusOn(true)
-        if (bonus.hp + bonus.sp + bonus.ea + bonus.ed + bonus.pa + bonus.pd == 0) {
+        if (bonus.hp + bonus.spd + bonus.ea + bonus.ed + bonus.pa + bonus.pd == 0) {
           handleBonus()
         }
       }
       return 1
     }
-    const bonusCopy = {...bonusList}
-    for (let i = 2; i <= 35; i++){
+    let bonusCopy = {...bonusList}
+    for (let i = 2; i <= MAX_LEVEL; i++){
       let distribution = randomizeStats(3);
-      bonusCopy[i] = {
+      bonusCopy = {...bonusCopy, [i]: {
         hp: bonusCopy[i-1].hp + distribution[0],
-        sp: bonusCopy[i-1].sp + distribution[1],
+        spd: bonusCopy[i-1].spd + distribution[1], 
         ea: bonusCopy[i-1].ea + distribution[2],
         pa: bonusCopy[i-1].pa + distribution[3],
         ed: bonusCopy[i-1].ed + distribution[4],
-        pd: bonusCopy[i-1].pd + distribution[5]
-      }
+        pd: bonusCopy[i-1].pd + distribution[5],
+      }}
     }
     setBonus({...bonusCopy[level]})
     setBonusList({...bonusCopy})
@@ -252,7 +253,7 @@ function App() {
       let distribution = randomizeStats((level - 1))
       setPlatinum({
         hp: distribution[0],
-        sp: distribution[1],
+        spd: distribution[1],
         ea: distribution[2],
         pa: distribution[3],
         ed: distribution[4],
@@ -266,7 +267,7 @@ function App() {
       } while(distribution.some(value => value > (level - 1)));
       setBonus({
         hp: distribution[0],
-        sp: distribution[1],
+        spd: distribution[1],
         ea: distribution[2],
         pa: distribution[3],
         ed: distribution[4],
@@ -278,21 +279,21 @@ function App() {
   function changeNature() {
     if(statsNature.hp == "white") setStatsNature({
       hp: "green",
-      sp: "green",
+      spd: "green",
       ea: "green",
       pa: "green",
       ed: "green",
       pd: "green"
     }); else if(statsNature.hp == "green") setStatsNature({
       hp: "red",
-      sp: "red",
+      spd: "red",
       ea: "red",
       pa: "red",
       ed: "red",
       pd: "red"
     }); else if(statsNature.hp == "red") setStatsNature({
       hp: "white",
-      sp: "white",
+      spd: "white",
       ea: "white",
       pa: "white",
       ed: "white",

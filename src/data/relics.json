@@ -38,5 +38,7 @@
 	"236":{"Type":"Relic","Name": "Boss Relic", "Price": {"Fragments":210}, "Level": 30,"Desc":"Relic that dropped from the boss after his death!","Keys":{"hp":25,"ed":5,"pd":5,"spd":-4}},
 	"237":{"Type":"Relic","Name": "Cactolin Thorn", "Price": {"Platinum":108}, "Level": 30,"Desc":"Very riscy relic!","Keys":{"spd":-10,"ed":-5,"pd":-5,"ea":10,"pa":10,"hp":16}},
 	"238":{"Type":"Relic","Name": "Frost Root", "Price": {"Platinum":162}, "Level": 35,"Desc":"Makes your miscrit so chill to be put on sleep!","Keys":{"hp":-20},"special_effects":[1]},
-	"239":{"Type":"Relic","Name": "Quartex Crystal", "Price": {"Platinum":162}, "Level": 35,"Desc":"Makes your miscrit so chill to be put on confuse!","Keys":{"hp":-20},"special_effects":[2]}
+	"239":{"Type":"Relic","Name": "Quartex Crystal", "Price": {"Platinum":162}, "Level": 35,"Desc":"Makes your miscrit so chill to be put on confuse!","Keys":{"hp":-20},"special_effects":[2]},
+	"240":{"Type":"Relic","Name": "Temple Stone","Price": { "Platinum": 108 },"Level": 30,"Desc": "This stone, obtained from the crumbling Temple walls, contains deep magic.","Keys": { "hp": 16, "ea": 16 }},
+	"241":{"Type":"Relic","Name": "Vanquished Soul","Price": { "Platinum": 108 },"Level": 30,"Desc": "This relic was found in the Volcano, and is believed to be the spiritual remnants of an ancient Miscrit.","Keys": { "hp": 16, "pa": 16 }}
 }

@@ -57,6 +57,16 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.71 - December 23, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Added Rudy.</li>
+                            <li>Enabled Flurrious.</li>
+                            <li>Miscripedia updated and sorted.</li>
+                            <li>Fixed stats calculation.</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.70 - December 11, 2024</h2>
                         <hr />
                         <ul>
