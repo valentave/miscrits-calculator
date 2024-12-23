@@ -62,6 +62,7 @@ export default function HelpWindow({setHelpActive}) {
                         <ul>
                             <li>Added Rudy.</li>
                             <li>Enabled Flurrious.</li>
+                            <li>Apply stats rebalance.</li>
                             <li>Miscripedia updated and sorted.</li>
                             <li>Fixed stats calculation.</li>
                         </ul>
