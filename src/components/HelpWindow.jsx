@@ -57,6 +57,14 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.72 - December 30, 2024</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats rebalance to Beelzebug, Blub, Cubsprout, Dark Vexie, Echino, Flameling, Fossillia, Freedom, Lavazard, Pennon, Sol, Spangles, Statikat, Ursiwave and Weevern</li>
+                            <li>Updated level 35 relics</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.71 - December 23, 2024</h2>
                         <hr />
                         <ul>
