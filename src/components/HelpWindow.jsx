@@ -57,6 +57,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.74 - January 13, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Applied stats rebalance to Dark Hotfoot, Dark Sparkitten and Tongutail</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.72 - December 30, 2024</h2>
                         <hr />
                         <ul>
