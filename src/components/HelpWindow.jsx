@@ -57,6 +57,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.75 - January 22, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Enabled Aquarion and updated its stats</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.74 - January 13, 2025</h2>
                         <hr />
                         <ul>

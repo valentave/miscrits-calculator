@@ -3491,13 +3491,13 @@
     "evoName": "Krakyn",
     "type": "Water",
     "rarity": "legendary",
-    "hp": 4,
+    "hp": 3,
     "ea": 4,
-    "ed": 2,
+    "ed": 3,
     "pa": 4,
-    "pd": 2,
-    "spd": 4,
-    "available": false
+    "pd": 3,
+    "spd": 3,
+    "available": true
   },
   {
     "id": 500,
