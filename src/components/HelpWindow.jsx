@@ -57,6 +57,15 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.79 - February 14, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Enabled Valentino</li>
+                            <li>Applied balance changes to Dark Arigato, Dark Flowerpiller, Dark Luna, Flowerpiller, Flurrious, Foil Flintly, Hawkai, Kelpa, Light Squibee, Skustunk and Thundercracker</li>
+                            <li>Updated relics</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.75 - January 22, 2025</h2>
                         <hr />
                         <ul>

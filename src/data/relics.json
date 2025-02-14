@@ -1,44 +1,422 @@
 {
-	"200":{"Type":"Relic","Name": "Forest Flower", "Price": {"Platinum":6}, "Level": 5,"Desc":"A radiant bloom carrying the essence of life, cherished by forest spirits.","Keys":{"ea":2}},
-	"201":{"Type":"Relic","Name": "Forest Wood", "Price": {"Platinum":6}, "Level": 5,"Desc":"Ancient timber blessed by the forest's heart, its weight inspires strength in those who wield it","Keys":{"pa":2}},
-	"202":{"Type":"Relic","Name": "Beach Coral", "Price": {"Platinum":6}, "Level": 5,"Desc":"A shimmering relic filled with ocean's energy, shaped by timeless tides.","Keys":{"hp":2}},
-	"203":{"Type":"Relic","Name": "Blessing Pollen", "Price": {"Platinum":12}, "Level": 10,"Desc":"Pollen blessed with nature’s harmony, its essence fortifies the bearer with gentle resilience.","Keys":{"ed":2,"pd":2}},
-	"204":{"Type":"Relic","Name": "GK's Slippers", "Price": {"Platinum":12}, "Level": 10,"Desc":"Legendary slippers stolen from GK's Palace, imbued with untold speed.","Keys":{"spd":4}},
-	"205":{"Type":"Relic","Name": "Pambo Cane", "Price": {"Platinum":12}, "Level": 10,"Desc":"A cane radiating the sea's healing power, its touch revives vitality as in the days of ancient healers.","Keys":{"hp":4}},
-	"206":{"Type":"Relic","Name": "Flower of Despair", "Price": {"Platinum":16}, "Level": 15,"Desc":"A bloom exuding mysterious power, its dark energy sharpens the wielder’s strength.","Keys":{"pa":6}},
-	"207":{"Type":"Relic","Name": "Elemental Explosion", "Price": {"Platinum":16}, "Level": 15,"Desc":"An artifact holding the fury of elements, its tempestuous power amplifies elemental force.","Keys":{"ea":6}},
-	"208":{"Type":"Relic","Name": "Frozen Claws", "Price": {"Platinum":16}, "Level": 15,"Desc":"Shards of frost-bound power and warmth, their presence fortifies the body against all harm.","Keys":{"hp":2,"ed":2,"pd":2}},
-	"209":{"Type":"Relic","Name": "Ship Book", "Price": {"Platinum":36}, "Level": 20,"Desc":"A tome guiding adventurers to the Volcano Island, written by daring sailors.","Keys":{"spd":6,"hp":4,"ea":2}},
-	"210":{"Type":"Relic","Name": "Gemma Gem", "Price": {"Platinum":36}, "Level": 20,"Desc":"A crystal pulsing with earth’s core energy, coveted by all treasure hunters.","Keys":{"pa":9,"pd":3}},
-	"211":{"Type":"Relic","Name": "Wishing Well Coin", "Price": {"Platinum":54}, "Level": 25,"Desc":"A magical coin bringing fortune and protection, forged in the hopes of dreamers.","Keys":{"pa":6,"ed":3,"ea":6,"pd":3}},
-	"212":{"Type":"Relic","Name": "Hard Spikes", "Price": {"Platinum":54}, "Level": 25,"Desc":"Razor-sharp spikes radiating danger, remnants of primal battles, sharpening strength and agility.","Keys":{"pa":12,"spd":3,"pd":3}},
-	"213":{"Type":"Relic","Name": "Sparkupine Totem", "Price": {"Platinum":108}, "Level": 30,"Desc":"A totem found in Volcano Island, infused with vitality and resilience.","Keys":{"hp":16,"ed":9,"pd":9}},
-	"214":{"Type":"Relic","Name": "Perfect Anvil", "Price": {"Platinum":36}, "Level": 20,"Desc":"A legendary forge blending might and magic, a blacksmith's ultimate dream.","Keys":{"speed":-2,"ea":5,"pa":5,"ed":-1,"pd":-1,"hp":8}},
-	"215":{"Type":"Relic","Name": "Water Schield", "Price": {"Platinum":36}, "Level": 20,"Desc":"A shield forged from ancient waters, its power enhances both elemental might and protection.","Keys":{"ed":8,"ea":4}},
-	"216":{"Type":"Relic","Name": "Golden Rock", "Price": {"Platinum":36}, "Level": 20,"Desc":"A glowing artifact symbolizing endurance, its legacy grants unmatched vitality and swiftness.","Keys":{"hp":10,"spd":2}},
-	"217":{"Type":"Relic","Name": "Ruins", "Price": {"Platinum":108}, "Level": 30,"Desc":"A cryptic relic radiating potent power, found in the depths of lost ruins.","Keys":{"hp":10,"spd":10,"ed":14}},
-	"218":{"Type":"Relic","Name": "Perfect Chaos", "Price": {"Platinum":108}, "Level": 30,"Desc":"A relic pulsating with mysterious energy, forged in the heart of chaos.","Keys":{"spd":6,"ea":12,"pa":12}},
-	"219":{"Type":"Relic","Name": "Bright Reflection", "Price": {"Platinum":108}, "Level": 30,"Desc":"A glowing artifact with restorative power, mirroring a calm, healing light.","Keys":{"pa":7,"ea":7,"hp":20}},
-	"220":{"Type":"Relic","Name": "White Gem", "Price": {"Platinum":108}, "Level": 30,"Desc":"A gem guarded by arcane sorcery, its energy protects the wielder from all forces.","Keys":{"hp":6,"ed":12,"pd":12}},
-	"221":{"Type":"Relic","Name": "Mushles", "Price": {"Platinum":108}, "Level": 30,"Desc":"A peculiar relic whispering otherworldly secrets, found in hidden forests.","Keys":{"hp":10,"spd":10,"pd":14}},
-	"222":{"Type":"Relic","Name": "Boss Venom", "Price": {"Fragments":50}, "Level": 10,"Desc":"A potent relic crafted from a legendary foe, brimming with deadly energy.","Keys":{"hp":5,"spd":-1}},
-	"223":{"Type":"Relic","Name": "Feather", "Price": {"Platinum":12}, "Level": 10,"Desc":"A magical quill of great significance, said to pen the fate of kingdoms.","Keys":{"spd":3,"pa":1}},
-	"224":{"Type":"Relic","Name": "Clouds", "Price": {"Platinum":12}, "Level": 10,"Desc":"Remnants of the skies carrying freedom, their essence quickens the wielder’s movements and power.","Keys":{"ea":3,"spd":1}},
-	"225":{"Type":"Relic","Name": "Healing Mushroom", "Price": {"Platinum":12}, "Level": 10,"Desc":"An enchanted fungus, brimming with potent healing energies.","Keys":{"hp":3,"ed":1}},
-	"226":{"Type":"Relic","Name": "Lightning Bolt", "Price": {"Platinum":12}, "Level": 10,"Desc":"A relic crackling with storm’s raw power, its energy quickens the bearer’s every step.","Keys":{"spd":3,"ea":1}},
-	"227":{"Type":"Relic","Name": "Boss Diamand", "Price": {"Fragments":120}, "Level": 20,"Desc":"A majestic gemstone found in Gemma Cave, said to trap the soul of an ancient beast.","Keys":{"pd":7,"ed":7,"spd":-2}},
-	"228":{"Type":"Relic","Name": "Devil's Bells", "Price": {"Platinum":36}, "Level": 20,"Desc":"Enigmatic chimes resonating with dark energy, their call quickens the bearer’s advance.","Keys":{"spd":10,"hp":2}},
-	"229":{"Type":"Relic","Name": "Aerobia Bean", "Price": {"Platinum":36}, "Level": 20,"Desc":"A rare relic infused with ethereal energy, revered and cherished by the people of Aerobia..","Keys":{"ed":10,"hp":2}},
-	"230":{"Type":"Relic","Name": "Adept Manta", "Price": {"Platinum":36}, "Level": 20,"Desc":"A cloak imbued with Adept essence, worn by champions of the arcane arts.","Keys":{"pd":10,"hp":2}},
-	"231":{"Type":"Relic","Name": "Nero Orb", "Price": {"Platinum":36}, "Level": 20,"Desc":"A sphere holding dark, unknown energy, said to guard forbidden secrets.","Keys":{"pd":5,"ea":5,"spd":2}},
-	"232":{"Type":"Relic","Name": "Gorilla Helmet", "Price": {"Platinum":108}, "Level": 30,"Desc":"A helm linked to a legendary beast, its ferocity enhances both speed and raw strength.","Keys":{"pd":20,"spd":12}},
-	"233":{"Type":"Relic","Name": "White Falcon Swords", "Price": {"Platinum":108}, "Level": 30,"Desc":"Eclipse-forged twin blades of elegance, favored by swift warriors.","Keys":{"pa":20,"spd":12}},
-	"234":{"Type":"Relic","Name": "East Stone", "Price": {"Platinum":108}, "Level": 30,"Desc":"An artifact imbued with Djinn magic, rumored to grant untold wisdom.","Keys":{"ed":20,"spd":12}},
-	"235":{"Type":"Relic","Name": "Golden Bow", "Price": {"Platinum":108}, "Level": 30,"Desc":"A bow of brilliance and precision, its celestial craft channels immense elemental power.","Keys":{"ea":20,"spd":12}},
-	"236":{"Type":"Relic","Name": "Boss Relic", "Price": {"Fragments":210}, "Level": 30,"Desc":"A potent fragment of Boss treasure, gleaming with primal might.","Keys":{"hp":25,"ed":5,"pd":5,"spd":-4}},
-	"237":{"Type":"Relic","Name": "Cactolin Thorn", "Price": {"Platinum":108}, "Level": 30,"Desc":"A thorn from the Exotic Cactolin, sharp enough to pierce steel.","Keys":{"spd":-10,"ed":-5,"pd":-5,"ea":10,"pa":10,"hp":16}},
-	"238":{"Type":"Relic","Name": "Frost Root", "Price": {"Platinum":120}, "Level": 35,"Desc":"A rare root from the frozen wastelands, warding off the embrace of slumber.","Keys":{"hp":-10},"special_effects":[1]},
-	"239":{"Type":"Relic","Name": "Quartex Crystal", "Price": {"Platinum":120}, "Level": 35,"Desc":"Crystal with a chilling energy that freezes the mind, protecting against confusion.","Keys":{"hp":-10},"special_effects":[2]},
-	"240":{"Type":"Relic","Name": "Temple Stone","Price": { "Platinum": 108 },"Level": 30,"Desc": "This stone, obtained from the crumbling Temple walls, contains deep magic.","Keys": { "hp": 16, "ea": 16 }},
-	"241": {"Type":"Relic","Name": "Vanquished Soul","Price": { "Platinum": 108 },"Level": 30,"Desc": "This relic was found in the Volcano, and is believed to be the spiritual remnants of an ancient Miscrit.","Keys": { "hp": 16, "pa": 16 }}
+	"200": {
+"Type":"Relic",
+	"Name": "Elefauna Flower",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "This lucky charm has to be picked from an Elefauna right before evolution.",
+	"Keys": { "hp": 1, "ea": 3 }
+  },
+  "201": {
+"Type":"Relic",
+	"Name": "Woodsman's Axe Head",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "One of the famous Woodsman's Axe heads. Still sharp.",
+	"Keys": { "hp": 1, "pa": 3 }
+  },
+  "202": {
+"Type":"Relic",
+	"Name": "Lake Azore Pearl",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "A rare pearl from the bottom of Lake Azore.",
+	"Keys": { "hp": 2, "ed": 1, "pd": 1 }
+  },
+  "203": {
+"Type":"Relic",
+	"Name": "Blessed Pollen",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "Pollen blessed with nature’s harmony, its essence fortifies the bearer with gentle resilience.",
+	"Keys": { "ed": 2, "pd": 2 }
+  },
+  "204": {
+"Type":"Relic",
+	"Name": "GK's Slippers",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "Legendary slippers stolen from GK's Palace, imbued with untold speed.",
+	"Keys": { "spd": 4 }
+  },
+  "205": {
+"Type":"Relic",
+	"Name": "Pamboo Cane",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "A cane radiating the sea's healing power, its touch revives vitality as in the days of ancient healers.",
+	"Keys": { "hp": 4 }
+  },
+  "206": {
+"Type":"Relic",
+	"Name": "Flower of Despair",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "A bloom exuding mysterious power. Its dark energy sharpens the wielder’s strength.",
+	"Keys": { "hp": 6, "pa": 6 }
+  },
+  "207": {
+"Type":"Relic",
+	"Name": "Elemental Explosion",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "An artifact holding the fury of elements. Its tempestuous power amplifies elemental force.",
+	"Keys": { "hp": 6, "ea": 6 }
+  },
+  "208": {
+"Type":"Relic",
+	"Name": "Frozen Claws",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "Shards of frost-bound power and warmth. Their presence fortifies the body against all harm.",
+	"Keys": { "hp": 4, "ed": 4, "pd": 4 }
+  },
+  "209": {
+"Type":"Relic",
+	"Name": "Ship Captain's Log",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "This is a journal kept by the captain of the ship between Volcano Island and Sunfall Kingdom.",
+	"Keys": { "hp": 4, "spd": 6, "ea": 2 }
+  },
+  "210": {
+"Type":"Relic",
+	"Name": "Emerald Scales",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "These gem scales were shed by the powerful Patrik, and are impressively tough.",
+	"Keys": { "pa": 9, "pd": 3 }
+  },
+  "211": {
+"Type":"Relic",
+	"Name": "Gold Piece Die",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "The Gold Piece Die is a magical device that is powered by pure strength.",
+	"Keys": { "ea": 12, "pa": 12, "ed": 5, "pd": 5 }
+  },
+  "212": {
+"Type":"Relic",
+	"Name": "Dark Warro Thorn",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "Thorns dropped by Dark Warro are rare and highly valued.",
+	"Keys": { "spd": 3, "pa": 17, "ed": 7, "pd": 7 }
+  },
+  "213": {
+"Type":"Relic",
+	"Name": "Monastery Idol",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "An idol found in Volcano Island, infused with vitality and resilience.",
+	"Keys": { "hp": 16, "ed": 9, "pd": 9 }
+  },
+  "214": {
+"Type":"Relic",
+	"Name": "Forging Hammer",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "The constant clanging from the Forging Hammer will make any Miscrit a bit irascible.",
+	"Keys": { "hp": 8, "ea": 5, "pa": 5, "ed": -1, "pd": -1 }
+  },
+  "215": {
+"Type":"Relic",
+	"Name": "Stony Shield",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "A shield crafted from lava rocks pulled straight from the Volcano itself.",
+	"Keys": { "ea": 4, "ed": 8 }
+  },
+  "216": {
+"Type":"Relic",
+	"Name": "Skyline Peak Gem",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "Chiseled from the famous golden gem atop Skyline Peak.",
+	"Keys": { "hp": 10, "spd": 2 }
+  },
+  "217": {
+"Type":"Relic",
+	"Name": "Shattered Gatestone",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "The Shattered Gatestone is made of some of the hardest material ever found in Miscria.",
+	"Keys": { "hp": 10, "spd": 10, "ed": 14 }
+  },
+  "218": {
+"Type":"Relic",
+	"Name": "Shard of Dawn's Landing",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "The Shard of Dawn's Landing is a stream of pure light energy that has been crafted into a solid object.",
+	"Keys": { "spd": 6, "ea": 12, "pa": 12 }
+  },
+  "219": {
+"Type":"Relic",
+	"Name": "Bauble of the Dawn",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "The Bauble of the Dawn fills any Miscrit that wears it with pure energy, giving them an extra boost.",
+	"Keys": { "hp": 20, "ea": 7, "pa": 7 }
+  },
+  "220": {
+"Type":"Relic",
+	"Name": "White Gem",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "A gem guarded by arcane sorcery. Its energy protects the wielder from all forces.",
+	"Keys": { "hp": 6, "ed": 12, "pd": 12 }
+  },
+  "221": {
+"Type":"Relic",
+	"Name": "Mushles",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "A peculiar relic whispering otherworldly secrets, found in hidden forests.",
+	"Keys": { "hp": 10, "spd": 10, "pd": 14 }
+  },
+  "222": {
+"Type":"Relic",
+	"Name": "Boss Venom",
+	"Price": { "Fragments": 50 },
+	"Level": 10,
+	"Desc": "A potent relic crafted from a legendary foe, brimming with deadly energy.",
+	"Keys": { "hp": 5, "spd": -1 }
+  },
+  "223": {
+"Type":"Relic",
+	"Name": "Dark Owlie Feather",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "This feather was shed by Dark Owlie during flight, and found near the peaks of Mount Gemma.",
+	"Keys": { "spd": 3, "pa": 1 }
+  },
+  "224": {
+"Type":"Relic",
+	"Name": "Cloud Cake",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "The clouds surrounding the very peak of Monk's Mountain provide incredible sustenance.",
+	"Keys": { "spd": 1, "ea": 3 }
+  },
+  "225": {
+"Type":"Relic",
+	"Name": "Eternal Falls Mushroom",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "The enduring mushrooms that grow behind the Eternal Falls are nearly impossible to obtain.",
+	"Keys": { "hp": 3, "ed": 1 }
+  },
+  "226": {
+"Type":"Relic",
+	"Name": "Skelepup's Spark",
+	"Price": { "Platinum": 12 },
+	"Level": 10,
+	"Desc": "Skelepup's Spark contains a concentrated jolt of power that revs up your Miscrit.",
+	"Keys": { "spd": 3, "ea": 1 }
+  },
+  "227": {
+"Type":"Relic",
+	"Name": "Boss Diamond",
+	"Price": { "Fragments": 120 },
+	"Level": 20,
+	"Desc": "A majestic gemstone found in Gemma Cave, said to trap the soul of an ancient beast.",
+	"Keys": { "spd": -2, "ed": 7, "pd": 7 }
+  },
+  "228": {
+"Type":"Relic",
+	"Name": "Helzbelz Bells",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "The ringing of the Helzbelz Bell awakens something deep within a Miscrit.",
+	"Keys": { "hp": 2, "spd": 10 }
+  },
+  "229": {
+"Type":"Relic",
+	"Name": "Bean Stalk",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "This relic is made from a fragment of the Aerobian Bean Stalk.",
+	"Keys": { "hp": 2, "ed": 10 }
+  },
+  "230": {
+"Type":"Relic",
+	"Name": "Monk's Robe",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "The Monk's Robe hides something terribly powerful inside.",
+	"Keys": { "hp": 2, "pd": 10 }
+  },
+  "231": {
+"Type":"Relic",
+	"Name": "Nero's Orb",
+	"Price": { "Platinum": 36 },
+	"Level": 20,
+	"Desc": "This orb, once played with by a young Nero, was found in a Monk's Mountain cave.",
+	"Keys": { "spd": 2, "ea": 5, "pd": 5 }
+  },
+  "232": {
+"Type":"Relic",
+	"Name": "Tiki Idol",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "The Tiki Idol from the Enchanted Tiki Island has been worshipped for many generations.",
+	"Keys": { "spd": 12, "pd": 20 }
+  },
+  "233": {
+"Type":"Relic",
+	"Name": "Lost Swords",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "These swords survive as relics from an earlier age of Miscria.",
+	"Keys": { "spd": 12, "pa": 20 }
+  },
+  "234": {
+"Type":"Relic",
+	"Name": "Gravitron Pebble",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "This pebble floats with a mysterious other-worldly energy.",
+	"Keys": { "spd": 12, "ed": 20 }
+  },
+  "235": {
+"Type":"Relic",
+	"Name": "Arrow of Love",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "This arrow from Valentino's quiver contains the ultimate power of love.",
+	"Keys": { "spd": 12, "ea": 20 }
+  },
+  "236": {
+"Type":"Relic",
+	"Name": "Boss Relic",
+	"Price": { "Fragments": 210 },
+	"Level": 30,
+	"Desc": "A potent fragment of Boss treasure, gleaming with primal might.",
+	"Keys": { "hp": 25, "spd": -4, "ed": 5, "pd": 5 }
+  },
+  "237": {
+"Type":"Relic",
+	"Name": "Cactolin's Thorn",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "Each of Cactolin's Thorns, pulled from its tail, are imbued with a special energy.",
+	"Keys": { "hp": 16, "spd": -10, "ea": 10, "pa": 10, "ed": -5, "pd": -5 }
+  },
+  "238": {
+"Type":"Relic",
+	"Name": "Frost Root",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Special": "Sleep Immunity!",
+	"Desc": "A rare root from the frozen wastelands, warding off the embrace of slumber.",
+	"Keys": { "hp": -5 },
+"special_effects":[1]
+  },
+  "239": {
+"Type":"Relic",
+	"Name": "Quartex Crystal",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Special": "Confuse Immunity!",
+	"Desc": "Crystal with a chilling energy that freezes the mind, protecting against confusion.",
+	"Keys": { "hp": -5 },
+"special_effects":[2]
+  },
+  "240": {
+"Type":"Relic",
+	"Name": "Temple Stone",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "This stone, obtained from the crumbling Temple walls, contains deep magic.",
+	"Keys": { "hp": 16, "ea": 16 }
+  },
+  "241": {
+"Type":"Relic",
+	"Name": "Vanquished Soul",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "This relic was found in the Volcano, and is believed to be the spiritual remnants of an ancient Miscrit.",
+	"Keys": { "hp": 16, "pa": 16 }
+  },
+  "242": {
+"Type":"Relic",
+	"Name": "Magicite Staff",
+	"Price": { "Platinum": 108 },
+	"Level": 30,
+	"Desc": "The mysterious floating stones on top of the Magicite Staff contain great and terrible power.",
+	"Keys": { "spd": 3, "ea": 17, "ed": 7, "pd": 7 }
+  },
+  "243": {
+"Type":"Relic",
+	"Name": "Molten Coin",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This molten coin from deep within the Fountain of Doom is dangerously powerful.",
+	"Keys": { "ea": 7, "pa": 7, "ed": 14, "pd": 14 }
+  },
+  "244": {
+"Type":"Relic",
+	"Name": "Frozen Coin",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This coin was found on an expedition to the mysterious Ice Tower.",
+	"Keys": { "ea": 14, "pa": 14, "ed": 7, "pd": 7 }
+  },
+  "245": {
+"Type":"Relic",
+	"Name": "Cage of Despair",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This cage is symbolic of the hardships of Miscrits throughout the world.",
+	"Keys": { "hp": 24, "spd": -10, "ea": -10, "pa": -10, "ed": 12, "pd": 12 }
+  },
+  "246": {
+"Type":"Relic",
+	"Name": "Saiyam's Trident",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This magical trident contains a spell to increase strength.",
+	"Keys": { "hp": 10, "spd": 10, "pa": 20 }
+  },
+  "247": {
+"Type":"Relic",
+	"Name": "Shard of Rudolffe",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This ancient shard is imbued with magic and the power to enhance.",
+	"Keys": { "hp": 10, "spd": 10, "ea": 20 }
+  },
+  "248": {
+"Type":"Relic",
+	"Name": "Gog's Cog",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This rugged part from complex innards of Gog gives him incredible physical strength.",
+	"Keys": { "hp": 15, "spd": -10, "ea": -10, "pa": 20 }
+  },
+  "249": {
+"Type":"Relic",
+	"Name": "Flying Carpet Fragment",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "Torn from the corner of an Aerobian carpet and made into a powerful relic.",
+	"Keys": { "hp": 15, "spd": -10, "ea": 20, "pa": -10 }
+  },
+  "250": {
+"Type":"Relic",
+	"Name": "Charcoal Idol",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "No one is sure if the Charcoal Idol was an object of worship or simply a child's doll that has been badly charred.",
+	"Keys": { "hp": 16, "spd": 26 }
+  },
+  "251": {
+"Type":"Relic",
+	"Name": "Moon Rock",
+	"Price": { "Platinum": 120 },
+	"Level": 35,
+	"Desc": "This rock, pulled from the surface of the Moon of Miscria, is nearly indestructible.",
+	"Keys": { "hp": 14, "ed": 14, "pd": 14 }
+  }
 }
