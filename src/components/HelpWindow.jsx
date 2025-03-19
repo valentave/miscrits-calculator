@@ -56,6 +56,13 @@ export default function HelpWindow({setHelpActive}) {
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
+                <div className="changelog-version">
+                        <h2>v0.84 - March 19, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Miscrits updated to new client update</li>
+                        </ul>
+                    </div>
                     <div className="changelog-version">
                         <h2>v0.79 - February 14, 2025</h2>
                         <hr />
