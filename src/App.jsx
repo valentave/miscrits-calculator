@@ -3,13 +3,15 @@ import { useEffect, useState } from "react"
 import MiscritsList from "./components/MiscritsList"
 import MiscritsFilter from "./components/MiscritsFilter"
 import MiscritMain from "./components/MiscritMain"
-import LIST from "./data/miscritsList.json"
+//import LIST from "./data/miscritsList.json"
 import Options from "./components/Options"
 import Stats from "./components/Stats"
 import HelpWindow from "./components/HelpWindow"
 import EditBonuswindow from "./components/EditBonusWindow"
+import miscritsJsonGenerator from "./miscritsJsonGenerator"
 
 function App() {
+  const [LIST, setList] = useState([])
   const [selectedMiscrit, setSelectedMiscrit] = useState(false)
   const [filterType, setFilterType] = useState("none")
   const [filterRarity, setFilterRarity] = useState("none")
@@ -131,6 +133,16 @@ function App() {
   function handleSelected(miscrit) {
     setSelectedMiscrit(miscrit)
   }
+
+  useEffect(() => {
+    fetch('https://miscrits-proxy.valentintaverna99.workers.dev/https://worldofmiscrits.com/miscrits.json')
+    .then(res => res.json())
+    .then(res => {
+      let newList = miscritsJsonGenerator(res)
+      setList(newList)
+      setFilteredList(newList)
+    })
+  },[])
 
   useEffect(() => {
     setBonus(bonusList[level])
