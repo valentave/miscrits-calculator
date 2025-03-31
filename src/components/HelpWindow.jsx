@@ -56,7 +56,15 @@ export default function HelpWindow({setHelpActive}) {
                 </div>}
                 {changelog &&
                 <div className="changelog-container">
-                <div className="changelog-version">
+                    <div className="changelog-version">
+                        <h2>v0.86 - March 31, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Relics disabled for now because I can't extract that data and are outdated</li>
+                            <li>Now miscrits images are fetched from the game server</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.84 - March 19, 2025</h2>
                         <hr />
                         <ul>
