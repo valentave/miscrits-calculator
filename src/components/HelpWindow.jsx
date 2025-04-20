@@ -57,6 +57,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v0.89 - April 20, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Now Thumbnails are auto updated</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.86 - March 31, 2025</h2>
                         <hr />
                         <ul>

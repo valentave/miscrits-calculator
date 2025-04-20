@@ -19,7 +19,7 @@ export default function MiscritsList({ LIST, selected, setSelected }) {
         </div>
         <div className="miscrits-list__picture-container">
           <div className={"picture-container__rarity rarity-" + miscrit.rarity}></div>
-          <img className={"profile-available-" + miscrit.available} src={miscrit.available == "spoiler" ? "./assets/profile-pics/missing.webp" : ("./assets/profile-pics/" + miscrit.name.replaceAll(" ", "_").toLowerCase() + "_avatar.webp")} alt="" />
+          <img className={"profile-available-" + miscrit.available} src={miscrit.available == "spoiler" ? "./assets/profile-pics/missing.webp" : ("https://cdn.worldofmiscrits.com/avatars/" + miscrit.name.replaceAll(" ", "_").toLowerCase() + "_avatar.png")} alt="" />
         </div>
         <div className="miscrits-list__name-container">
           <p>{miscrit.name}</p>
