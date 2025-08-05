@@ -41,7 +41,7 @@ export default function MiscritMain({miscrit, areBonusOn, arePlatinumOn, setReli
             {relicWindow && 
                 // eslint-disable-next-line no-unused-vars
                 <RelicWindow newRelics={newRelics} setNewRelics={setNewRelics} setRelicWindow={setRelicWindow} relics={Object.entries(RELICS).filter(([id, item]) => item.Level <= (selectedSlot == 1 ? 10 : selectedSlot == 2 ? 20 : selectedSlot == 3 ? 30 : 35) & item.Level >= (selectedSlot == 1 ? 5 : selectedSlot == 2 ? 15 : selectedSlot == 3 ? 25 : 35)).map(([id, item]) => ({ id, ...item }))}/>}
-            { /*<div className="relics-container">
+            { <div className="relics-container">
                 <button className="relic-button" onClick={() => handleSlot(1)}>
                     <img className="relic-image" src={`./assets/relics/${newRelics[0]}.webp`} alt="" />
                     <img src="./assets/other/relic_slot.png" alt="" />
@@ -58,7 +58,7 @@ export default function MiscritMain({miscrit, areBonusOn, arePlatinumOn, setReli
                     <img className="relic-image" src={`./assets/relics/${newRelics[3]}.webp`} alt="" />
                     <img src="./assets/other/relic_slot.png" alt="" />
                 </button>
-            </div> */}
+            </div> }
             <p className="bonus-check">Bonus: {areBonusOn ? "On" : "Off"}</p>
             <p className="platinum-check">Plat: {arePlatinumOn ? "On" : "Off"}</p>
             <div className="main__image-container">

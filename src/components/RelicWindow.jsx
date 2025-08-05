@@ -21,7 +21,7 @@ export default function RelicWindow({newRelics, setNewRelics, setRelicWindow, re
     }
     function manageFilter(stat) {
         // eslint-disable-next-line no-unused-vars
-        let newList = Object.entries(relics).filter(([id, item]) => item.Keys[stat] && (item.Keys[stat] > 0)).map(([id, item]) => ({ id, ...item }))
+        let newList = Object.entries(relics).filter(([id, item]) => item.Keys[stat] && (item.Keys[stat])).map(([id, item]) => ({ id, ...item }))
         setFilteredList({...newList})
         setFilterRelic(stat)
     }

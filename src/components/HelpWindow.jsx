@@ -57,6 +57,13 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v1.9.0 - August 5, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Relics menu enabled</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v0.89 - April 20, 2025</h2>
                         <hr />
                         <ul>
