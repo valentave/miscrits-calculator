@@ -57,6 +57,14 @@ export default function HelpWindow({setHelpActive}) {
                 {changelog &&
                 <div className="changelog-container">
                     <div className="changelog-version">
+                        <h2>v1.18.0 - November 18, 2025</h2>
+                        <hr />
+                        <ul>
+                            <li>Removed Boss Relics and Cactolin</li>
+                            <li>New relics added</li>
+                        </ul>
+                    </div>
+                    <div className="changelog-version">
                         <h2>v1.9.0 - August 5, 2025</h2>
                         <hr />
                         <ul>

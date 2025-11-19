@@ -7,6 +7,7 @@
 
 .relic-window__relics-container > button {
     width: 20%;
+    height: unset;
     min-height: 100%;
     text-align: start;
     padding: 5px;
