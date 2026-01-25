@@ -250,7 +250,7 @@
     "Level": 10,
     "Special": "Sleep Immunity!",
     "Desc": "A rare root from the frozen wastelands, warding off the embrace of slumber",
-    "Keys": { "hp": -10, "SI": true }
+    "Keys": { "hp": -7, "SI": true }
   },
   "239": {
     "Name": "Quartex Crystal",
@@ -258,7 +258,7 @@
     "Level": 10,
     "Special": "Confuse Immunity!",
     "Desc": "Crystal with a chilling energy that freezes the mind, protecting against confusion",
-    "Keys": { "hp": -10, "CI": true }
+    "Keys": { "hp": -7, "CI": true }
   },
   "240": {
     "Name": "Temple Stone",
@@ -307,7 +307,7 @@
     "Price": { "Platinum": 120 },
     "Level": 35,
     "Desc": "This magical trident contains a spell to increase strength",
-    "Keys": { "hp": 18, "spd": 10, "pa": 20 }
+    "Keys": { "hp": 15, "spd": 10, "pa": 20 }
   },
   "247": {
     "Name": "Shard of Rudolffe",
@@ -496,14 +496,14 @@
     "Price": { "Platinum": 90 },
     "Level": 30,
     "Desc": "This Mystic Map was a gift from a traveler, and no one knows where it leads",
-    "Keys": { "hp": 8, "spd": -10, "ea": 8 }
+    "Keys": { "hp": 9, "spd": -10, "ea": 9 }
   },
   "274": {
     "Name": "Palmda's Talon",
     "Price": { "Platinum": 90 },
     "Level": 30,
     "Desc": "Palmda's Talon is impossibly sharp, and makes any physical attack more powerful",
-    "Keys": { "hp": 8, "spd": -10, "pa": 8 }
+    "Keys": { "hp": 9, "spd": -10, "pa": 9 }
   },
   "275": {
     "Name": "Nox's Nightmare",
