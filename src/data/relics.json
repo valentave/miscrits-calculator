@@ -518,5 +518,12 @@
     "Level": 30,
     "Desc": "A flower from one of the hardy, spiny cacti of Mount Gemma",
     "Keys": { "spd": -10, "ed": 9, "pd": 9 }
+  },
+  "277": {
+    "Name": "Brash's Kiss",
+    "Price": { "Platinum": 12 },
+    "Level": 10,
+    "Desc": "A flower from one of the hardy, spiny cacti of Mount Gemma",
+    "Keys": { "hp": 1, "ea": 2, "pa": 2 }
   }
 }
