@@ -242,7 +242,7 @@
     "Price": { "Platinum": 90 },
     "Level": 30,
     "Desc": "This arrow from Valentino's quiver contains the ultimate power of love",
-    "Keys": { "spd": 14, "ea": 22 }
+    "Keys": { "spd": 14, "ea": 20, "hp": 4 }
   },
   "238": {
     "Name": "Frost Root",
